@@ -1,28 +1,4 @@
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  const colors = require('tailwindcss/colors')
-  
-  module.exports = {
-    // ...
-    theme: {
-      extend: {
-        colors: {
-          teal: colors.teal,
-          cyan: colors.cyan,
-        },
-      },
-    },
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
+
 <template>
   <div class="bg-white">
     <div class="relative overflow-hidden">
@@ -33,7 +9,8 @@
               <div class="flex w-full items-center justify-between md:w-auto">
                 <a href="#">
                   <span class="sr-only">Your Company</span>
-                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" />
+                  <nuxt-img class="h-8 w-auto sm:h-10" src="/logo-bitatech-2.png" />
+                  <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" /> -->
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
@@ -47,8 +24,8 @@
               </div>
             </div>
             <div class="hidden md:flex md:items-center md:space-x-6">
-              <a href="#" class="text-base font-medium text-white hover:text-gray-300">Log in</a>
-              <a href="#" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">Start free trial</a>
+              <!-- <a href="#" class="text-base font-medium text-white hover:text-gray-300">Log in</a> -->
+              <a href="#" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">Contact Us</a>
             </div>
           </nav>
         </div>
@@ -58,7 +35,7 @@
             <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
               <div class="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=500&to-color=cyan&to-shade=600&toShade=600" alt="" />
+                  <nuxt-img class="h-8 w-auto" src="/logo-bitatech-2.png" alt="" />
                 </div>
                 <div class="-mr-2">
                   <PopoverButton class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
@@ -72,10 +49,10 @@
                   <a v-for="item in navigation" :key="item.name" :href="item.href" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                 </div>
                 <div class="mt-6 px-5">
-                  <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
+                  <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Contact Us</a>
                 </div>
                 <div class="mt-6 px-5">
-                  <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
+                  <!-- <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p> -->
                 </div>
               </div>
             </div>
@@ -88,17 +65,17 @@
             <div class="lg:grid lg:grid-cols-2 lg:gap-8">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
                 <div class="lg:py-24">
-                  <a href="#" class="inline-flex items-center rounded-full bg-black p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
+                  <!-- <a href="#" class="inline-flex items-center rounded-full bg-black p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
                     <span class="rounded-full bg-gradient-to-r from-teal-500 to-cyan-600 px-3 py-0.5 text-sm font-semibold leading-5 text-white">We're hiring</span>
                     <span class="ml-4 text-sm">Visit our careers page</span>
                     <ChevronRightIcon class="ml-2 h-5 w-5 text-gray-500" aria-hidden="true" />
-                  </a>
+                  </a> -->
                   <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span class="block">A better way to</span>
-                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">ship web apps</span>
+                    <span class="block">Web & Mobile App, SaaS, Web3 Studio</span>
+                    <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">Development Company</span>
                   </h1>
-                  <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
-                  <div class="mt-10 sm:mt-12">
+                  <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.</p>
+                  <!-- <div class="mt-10 sm:mt-12">
                     <form action="#" class="sm:mx-auto sm:max-w-xl lg:mx-0">
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
@@ -106,26 +83,102 @@
                           <input id="email" type="email" placeholder="Enter your email" class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900" />
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                          <button type="submit" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">Start free trial</button>
+                          <button type="submit" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">Contact Us</button>
                         </div>
                       </div>
                       <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
                     </form>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt="" />
+                  <nuxt-img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-bitatech.webp" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Top award -->
+        <div class="bg-white">
+          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor" />
+              </div>
+              <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+   
+
+        <!-- Why chose us -->
+        <div class="bg-white">
+          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-10">
+            <div class="space-y-12">
+              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Engineering & Consulting</h2>
+
+              <ul role="list" class="space-y-20 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-20 lg:space-y-0">
+                <li v-for="person in people" :key="person.name">
+                  <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
+                    <div class="flex items-center justify-center">
+                      <nuxt-img format="svg" class="rounded-lg object-cover" :src="person.imageUrl" alt="" />
+                    </div>
+                    <div class="sm:col-span-2">
+                      <div class="space-y-4">
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                          <h3>{{ person.name }}</h3>
+                          <p class="text-indigo-600">{{ person.role }}</p>
+                        </div>
+                        <div class="text-lg">
+                          <p class="text-gray-500">{{ person.bio }}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Stas -->
+        <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl">
+          <dl class="mt-20 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div v-for="item in stats" :key="item.id" class="relative overflow-hidden rounded-lg bg-white px-4 pt-5 pb-0 shadow sm:px-6 sm:pt-6">
+              <dt>
+                <div class="absolute rounded-md bg-gradient-to-r from-cyan-600 to-blue-600 p-3">
+                  <component :is="item.icon" class="h-6 w-6 text-white" aria-hidden="true" />
+                </div>
+                <p class="ml-16 truncate text-sm font-medium text-gray-900">{{ item.name }}</p>
+              </dt>
+              <dd class="ml-16 flex items-baseline pb-6 sm:pb-7">
+                <p class="text-2xl font-semibold text-orange-500">{{ item.stat }}</p>
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        
+
         <!-- Feature section with screenshot -->
-        <div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
+        <!-- <div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <div>
               <h2 class="text-lg font-semibold text-cyan-600">Serverless</h2>
@@ -136,21 +189,21 @@
               <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg" alt="" />
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Feature section with grid -->
         <div class="relative bg-white py-16 sm:py-24 lg:py-32">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-            <h2 class="text-lg font-semibold text-cyan-600">Deploy faster</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>
-            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
+            <h2 class="text-lg font-semibold text-cyan-600">OUR SERVICES</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global SDaaS / Blockchain & IT Consulting</p>
+            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly professional team strives to provide our global clients with full-stack solutions by multiple platforms, languages in a timely manner.</p>
             <div class="mt-12">
               <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <div v-for="feature in features" :key="feature.name" class="pt-6">
                   <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                     <div class="-mt-6">
                       <div>
-                        <span class="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 p-3 shadow-lg">
+                        <span class="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-yellow-400 to-orange-500 p-3 shadow-lg">
                           <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
                         </span>
                       </div>
@@ -165,13 +218,13 @@
         </div>
 
         <!-- Testimonial section -->
-        <div class="bg-gradient-to-r from-teal-500 to-cyan-600 pb-16 lg:relative lg:z-10 lg:pb-0">
+        <div class="bg-gradient-to-r from-stone-200 to-gray-600 pb-16 lg:relative lg:z-10 lg:pb-0">
           <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
             <div class="relative lg:-my-8">
               <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
               <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
                 <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                  <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />
+                  <nuxt-img class="object-cover lg:h-full lg:w-full" src="/avatar-vp.png" alt="" />
                 </div>
               </div>
             </div>
@@ -182,16 +235,71 @@
                     <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
-                    <p class="mt-6 text-2xl font-medium text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.</p>
+                    <p class="mt-6 text-2xl font-medium text-white">This development team cares about the customer and does everything to make their clients happy and satisfied with their work. They deliver on their promises, no matter how long it takes, and provide daily, detailed updates of their work upon request.</p>
                   </div>
                   <footer class="mt-6">
-                    <p class="text-base font-medium text-white">Judith Black</p>
-                    <p class="text-base font-medium text-cyan-100">CEO at PureInsights</p>
+                    <p class="text-base font-medium text-white">Vinesh</p>
+                    <p class="text-base font-medium text-yellow-500">CEO at notionAI</p>
                   </footer>
                 </blockquote>
               </div>
             </div>
           </div>
+        </div>
+
+        <!-- Our Client -->
+        <div class="bg-white">
+          <div class="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
+            <div class="space-y-8 sm:space-y-12">
+              <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+                <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Our Clients</h2>
+                <p class="text-xl text-gray-500">Proudly partnered with 160+ clients from diverse industries including Banking & Finance, Automotive, Retail, Health Care, Education, Media & Entertainment</p>
+              </div>
+              <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
+                <li v-for="client in Clients" :key="client.name">
+                  <div class="space-y-4">
+                    <nuxt-img class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" :src="client.imageUrl" alt="" />
+                    <div class="space-y-2">
+                      <div class="text-xs font-medium lg:text-sm">
+                        <!-- <h3>{{ client.name }}</h3> -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- award -->
+        <div class="bg-white">
+          <!-- Header -->
+          <div class="relative bg-gray-800 pb-32">
+            <div class="absolute inset-0">
+              <nuxt-img class="h-full w-full object-cover" src="/banner-award.jpeg" alt="" />
+              <div class="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
+            </div>
+            <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+              <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p>
+              <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company Awarded by the VINASA</h1>
+            </div>
+          </div>
+
+          <!-- Overlapping cards -->
+          <section class="relative z-10 mx-auto -mt-32 max-w-7xl px-4 pb-32 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+            <h2 class="sr-only" id="contact-heading">SAO KHUE AWARD</h2>
+            <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+              <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-white shadow-xl">
+                <div class="relative flex-1">
+                  <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+                    <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                      <nuxt-img class="object-cover lg:h-full lg:w-full" :src="award.image" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
         <!-- Blog section -->
@@ -240,6 +348,46 @@
           </div>
         </div>
 
+        <div class="bg-white">
+          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+              <div>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Used by the world's most average companies</h2>
+                <p class="mt-3 max-w-3xl text-lg text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue.</p>
+                <div class="mt-8 sm:flex">
+                  <div class="rounded-md shadow">
+                    <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Create Account</a>
+                  </div>
+                  <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-100 px-5 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation" />
+                </div>
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                </div>
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                </div>
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel" />
+                </div>
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
+                </div>
+                <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                  <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <!-- CTA Section -->
         <div class="relative bg-gray-900">
           <div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
@@ -262,14 +410,16 @@
             </div>
           </div>
         </div>
+
       </main>
       <footer class="bg-gray-50" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
         <div class="mx-auto max-w-md px-4 pt-12 sm:max-w-7xl sm:px-6 lg:px-8 lg:pt-16">
           <div class="xl:grid xl:grid-cols-3 xl:gap-8">
             <div class="space-y-8 xl:col-span-1">
-              <img class="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300" alt="Company name" />
-              <p class="text-base text-gray-500">Making the world a better place through constructing elegant hierarchies.</p>
+              <!-- <img class="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300" alt="Company name" /> -->
+              <nuxt-img class="h-10" src="/logo-bitatech-2.png" alt="Bitatech"/>
+              <p class="text-base text-gray-500">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices</p>
               <div class="flex space-x-6">
                 <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
                   <span class="sr-only">{{ item.name }}</span>
@@ -317,7 +467,7 @@
             </div>
           </div>
           <div class="mt-12 border-t border-gray-200 py-8">
-            <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+            <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Bitatech, Inc. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -337,45 +487,159 @@ import {
   ServerIcon,
   ShieldCheckIcon,
   XMarkIcon,
+  CursorArrowRaysIcon,
+  EnvelopeOpenIcon,
+  UsersIcon,
+  MapPinIcon,
+  UserGroupIcon,
+  CodeBracketIcon,
+  PhoneIcon,
+  NewspaperIcon,
+  LifebuoyIcon
 } from '@heroicons/vue/24/outline'
 import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/vue/20/solid'
+import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid'
 
+const awards = [
+  {
+    name: 'Sao Khue',
+    image: '/award-1.png',
+  },
+  {
+    name: 'Top softwawre',
+    image: '/award-4.webp',
+  },
+  {
+    name: 'AWS',
+    image: '/award-3.png',
+  }
+]
+
+const Clients = [
+  {
+    imageUrl:
+      '/client-bitatech-1.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-2.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-3.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-4.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-5.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-6.png',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-7.svg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-8.png',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-9.png',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-10.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-11.jpeg',
+  },
+  {
+    imageUrl:
+      '/client-bitatech-12.jpeg',
+  }
+  // More people...
+]
+
+const people = [
+  {
+    name: 'Proven Software Success',
+    role: '',
+    imageUrl: '/why-bitatech-icon-1.svg',
+    bio: 'We’ve served over 160 clients and develop our own software companies in house, which sets us apart from the rest.',
+  },
+  {
+    name: 'Develop Innovative Solutions',
+    role: '',
+    imageUrl: '/why-bitatech-icon-2.svg',
+    bio: 'Bring your software visions to life by leveraging emerging technologies.',
+  },
+  {
+    name: 'Accelerate Speed to Market',
+    role: '',
+    imageUrl: '/why-bitatech-icon-3.svg',
+    bio: 'Achieve continuous delivery cycles to outpace your competitors with faster speed to market.',
+  },
+  {
+    name: 'Expand Your Team Capacity',
+    role: '',
+    imageUrl: '/why-bitatech-icon-4.svg',
+    bio: 'Fill your talent gaps and enhance your team’s skills with senior-level developers.',
+  }
+]
+
+const stats = [
+  { id: 1, name: 'COUNTRIES', stat: '12', icon: MapPinIcon },
+  { id: 2, name: 'CUSTOMERS', stat: '160+', icon: UserGroupIcon },
+  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '300+', icon: ShieldCheckIcon },
+  { id: 4, name: 'DEVELOPERS', stat: '450+', icon: CodeBracketIcon }
+]
+
+const metrics = [
+  { id: 1, stat: '8K+', emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
+  { id: 2, stat: '25K+', emphasis: 'Countries around the globe', rest: 'lacus nibh integer quis.' },
+  { id: 3, stat: '98%', emphasis: 'Customer satisfaction', rest: 'laoreet amet lacus nibh integer quis.' },
+  { id: 4, stat: '12M+', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
+]
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Company', href: '#' }
 ]
 const features = [
   {
-    name: 'Push to Deploy',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.',
+    name: 'Blockchain',
+    description: 'We provide NFTs, DEX, CEX, eWallet Development, ICO/IEO/STO, Smart Contracts Development to effortlessly leverage Blockchain solutions.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL Certificates',
-    description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
-    icon: LockClosedIcon,
+    name: 'Mobile App Development',
+    description: 'As a leading mobile app development company, we have years of experience creating innovative, high-quality applications for our clients.',
+    icon: ServerIcon,
   },
   {
-    name: 'Simple Queues',
-    description: 'Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.',
+    name: 'MVP Product Development',
+    description: 'Bitatech Technology can provide a full-scale team to support the entire development lifecycle or fill the gaps in your MVP team. No matter your needs, we follow our proven methodology for ensuring quality and success for your minimum viable product (MVP).',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced Security',
-    description: 'Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.',
+    name: 'Software Testing',
+    description: 'Increase the speed, accuracy, and security of your QA and software testing with comprehensive services that deliver better products for your end users.',
     icon: ShieldCheckIcon,
   },
   {
-    name: 'Powerful API',
+    name: 'DevOps Solutions',
     description:
-      'Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.',
+      'Boost efficiency and minimize costs with the help of our DevOps experts.',
     icon: CogIcon,
   },
   {
-    name: 'Database Backups',
-    description: 'Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.',
+    name: 'Software Development',
+    description: 'We’re building a new generation of innovative software companies.',
     icon: ServerIcon,
   },
 ]
@@ -535,3 +799,27 @@ const footerNavigation = {
   ],
 }
 </script>
+
+<style>
+.carousel__item {
+  min-height: 200px;
+  width: 100%;
+  background-color: var(--vc-clr-primary);
+  color: var(--vc-clr-white);
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__slide {
+  padding: 10px;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: 5px solid white;
+}
+</style>
