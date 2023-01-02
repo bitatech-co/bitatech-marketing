@@ -9,6 +9,7 @@
     "slicemachine": "start-slicemachine"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/prismic": "^1.4.2",
     "@prismicio/types": "^0.2.7",
     "autoprefixer": "^10.4.13",

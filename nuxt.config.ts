@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
   buildModules: [
-    '@nuxtjs/prismic'
+    '@nuxt/image',
+    '@nuxtjs/prismic',
   ],
   prismic: {
     endpoint: 'https://<REPOSITORY>.cdn.prismic.io/api/v2',
@@ -14,6 +16,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
+  }
 })
 

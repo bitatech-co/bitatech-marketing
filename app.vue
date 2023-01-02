@@ -33,7 +33,8 @@
               <div class="flex w-full items-center justify-between md:w-auto">
                 <a href="#">
                   <span class="sr-only">Your Company</span>
-                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" />
+                  <img class="h-8 w-auto sm:h-10" src="./static/logo-bitatech-3.png" />
+                  <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" /> -->
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
