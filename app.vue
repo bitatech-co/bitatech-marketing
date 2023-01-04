@@ -91,10 +91,10 @@
                   </div> -->
                 </div>
               </div>
-              <div class="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
+              <div class="mt-12 sm:-mb-48 lg:relative lg:m-0">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-bitatech.webp" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-finaly.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
                 </div>
               </div>
             </div>
