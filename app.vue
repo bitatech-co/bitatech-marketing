@@ -137,7 +137,7 @@
                 <li v-for="person in people" :key="person.name">
                   <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
                     <div class="flex items-center justify-center">
-                      <nuxt-img format="svg" class="rounded-lg object-cover" :src="person.imageUrl" alt="" />
+                      <nuxt-img class="rounded-lg object-cover" :src="person.imageUrl" alt="" />
                     </div>
                     <div class="sm:col-span-2">
                       <div class="space-y-4">
