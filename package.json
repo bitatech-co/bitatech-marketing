@@ -28,5 +28,6 @@
     "@supabase/supabase-js": "^2.2.2",
     "tw-elements": "^1.0.0-alpha13",
     "vue3-carousel": "^0.2.9"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
