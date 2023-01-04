@@ -9,7 +9,7 @@
               <div class="flex w-full items-center justify-between md:w-auto">
                 <a href="#">
                   <span class="sr-only">Your Company</span>
-                  <nuxt-img class="h-8 w-auto sm:h-10" src="/logo-bitatech-2.png" />
+                  <img class="h-8 w-auto sm:h-10" src="/logo-bitatech-2.png" />
                   <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" /> -->
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
@@ -35,7 +35,7 @@
             <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
               <div class="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <nuxt-img class="h-8 w-auto" src="/logo-bitatech-2.png" alt="" />
+                  <img class="h-8 w-auto" src="/logo-bitatech-2.png" alt="" />
                 </div>
                 <div class="-mr-2">
                   <PopoverButton class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
@@ -94,7 +94,7 @@
               <div class="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <nuxt-img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-bitatech.webp" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-bitatech.webp" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
                 </div>
               </div>
             </div>
@@ -134,19 +134,23 @@
               <h2 class="text-3xl font-bold tracking-tight sm:text-4xl w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Engineering & Consulting</h2>
 
               <ul role="list" class="space-y-20 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-20 lg:space-y-0">
-                <li v-for="person in people" :key="person.name">
+                <li v-for="reason in whyUs" :key="reason.name">
                   <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
                     <div class="flex items-center justify-center">
-                      <nuxt-img class="rounded-lg object-cover" :src="person.imageUrl" alt="" />
+                      <img v-if="reason.imageUrl === '/why-bitatech-icon-1.svg'" class="rounded-lg object-cover" src="/why-bitatech-icon-1.svg" alt="" />
+                      <img v-else-if="reason.imageUrl === '/why-bitatech-icon-2.svg'" class="rounded-lg object-cover" src="/why-bitatech-icon-2.svg" alt="" />
+                      <img v-else-if="reason.imageUrl === '/why-bitatech-icon-3.svg'" class="rounded-lg object-cover" src="/why-bitatech-icon-3.svg" alt="" />
+                      <img v-else class="rounded-lg object-cover" src="/why-bitatech-icon-4.svg" alt="" />
+
                     </div>
                     <div class="sm:col-span-2">
                       <div class="space-y-4">
                         <div class="space-y-1 text-lg font-medium leading-6">
-                          <h3>{{ person.name }}</h3>
-                          <p class="text-indigo-600">{{ person.role }}</p>
+                          <h3>{{ reason.name }}</h3>
+                          <p class="text-indigo-600">{{ reason.role }}</p>
                         </div>
                         <div class="text-lg">
-                          <p class="text-gray-500">{{ person.bio }}</p>
+                          <p class="text-gray-500">{{ reason.bio }}</p>
                         </div>
                       </div>
                     </div>
@@ -224,7 +228,7 @@
               <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
               <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
                 <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                  <nuxt-img class="object-cover lg:h-full lg:w-full" src="/avatar-vp.png" alt="" />
+                  <img class="object-cover lg:h-full lg:w-full" src="/avatar-vp.png" alt="" />
                 </div>
               </div>
             </div>
@@ -258,7 +262,19 @@
               <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
                 <li v-for="client in Clients" :key="client.name">
                   <div class="space-y-4">
-                    <nuxt-img class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" :src="client.imageUrl" alt="" />
+                    <img v-if="client.imageUrl === '/client-bitatech-1.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-1.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-2.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-2.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-3.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-3.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-4.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-4.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-5.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-5.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-6.png'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-6.png" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-7.svg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-7.svg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-8.png'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-8.png" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-9.png'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-9.png" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-10.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-10.jpeg" alt="" />
+                    <img v-else-if="client.imageUrl === '/client-bitatech-11.jpeg'" class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-11.jpeg" alt="" />
+                    <img v-else class="mx-auto h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-12.jpeg" alt="" />
+                    
                     <div class="space-y-2">
                       <div class="text-xs font-medium lg:text-sm">
                         <!-- <h3>{{ client.name }}</h3> -->
@@ -276,7 +292,7 @@
           <!-- Header -->
           <div class="relative bg-gray-800 pb-32">
             <div class="absolute inset-0">
-              <nuxt-img class="h-full w-full object-cover" src="/banner-award.jpeg" alt="" />
+              <img class="h-full w-full object-cover" src="/banner-award.jpeg" alt="" />
               <div class="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
             </div>
             <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
@@ -293,7 +309,9 @@
                 <div class="relative flex-1">
                   <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
                     <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                      <nuxt-img class="object-cover lg:h-full lg:w-full" :src="award.image" alt="" />
+                      <img v-if="award.image === '/award-1.png'" class="object-cover lg:h-full lg:w-full" src="/award-1.png" alt="" />
+                      <img v-else-if="award.image === '/award-4.webp'" class="object-cover lg:h-full lg:w-full" src="/award-4.webp" alt="" />
+                      <img v-else class="object-cover lg:h-full lg:w-full" src="/award-3.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -418,7 +436,7 @@
           <div class="xl:grid xl:grid-cols-3 xl:gap-8">
             <div class="space-y-8 xl:col-span-1">
               <!-- <img class="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300" alt="Company name" /> -->
-              <nuxt-img class="h-10" src="/logo-bitatech-2.png" alt="Bitatech"/>
+              <img class="h-10" src="/logo-bitatech-2.png" alt="Bitatech"/>
               <p class="text-base text-gray-500">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices</p>
               <div class="flex space-x-6">
                 <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
@@ -564,10 +582,10 @@ const Clients = [
     imageUrl:
       '/client-bitatech-12.jpeg',
   }
-  // More people...
+  // More whyUs...
 ]
 
-const people = [
+const whyUs = [
   {
     name: 'Proven Software Success',
     role: '',
