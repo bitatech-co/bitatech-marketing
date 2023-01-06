@@ -102,30 +102,32 @@
         </div>
 
         <!-- Top award -->
-        <div class="bg-white">
-          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
-              </div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-              </div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
-              </div>
-              <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor" />
-              </div>
-              <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation" />
+        <div class="bg-indigo-200 bg-opacity-25">
+          <div class="mx-auto max-w-7xl py-10 px-4 sm:py-12 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+              <h2 class="mx-auto max-w-md text-center text-3xl font-bold tracking-tight text-indigo-900 lg:max-w-xl lg:text-left">TRUSTED BY STARTUPS AND FORTUNE 200 COMPANIES</h2>
+              <div class="mt-8 flow-root self-center lg:mt-0">
+                <div class="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
+                  <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                    <img class="h-12" src="/client-bitatech-2.jpeg" alt="Macdonald's" />
+                  </div>
+                  <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                    <img class="h-12" src="/client-bitatech-3.jpeg" alt="ANZ" />
+                  </div>
+                  <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                    <img class="h-12" src="/client-bitatech-6.png" alt="notionAI" />
+                  </div>
+                  <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                    <img class="h-12" src="/client-bitatech-5.jpeg" alt="adash" />
+                  </div>
+                  <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                    <img class="h-12" src="/client-bitatech-8.png" alt="AJobThing" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-
-   
 
         <!-- Why chose us -->
         <div class="bg-white">
@@ -239,7 +241,7 @@
                     <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
-                    <p class="mt-6 text-2xl font-medium text-white">This development team cares about the customer and does everything to make their clients happy and satisfied with their work. They deliver on their promises, no matter how long it takes, and provide daily, detailed updates of their work upon request.</p>
+                    <p class="mt-6 text-2xl font-medium text-white">Bitatech is an external software services provider but their way of working will make you feel like you have a bigger in-house engineering team!”</p>
                   </div>
                   <footer class="mt-6">
                     <p class="text-base font-medium text-white">Vinesh</p>
@@ -296,7 +298,7 @@
               <div class="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
             </div>
             <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-              <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p>
+              <!-- <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p> -->
               <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company Awarded by the VINASA</h1>
             </div>
           </div>
@@ -321,7 +323,7 @@
         </div>
 
         <!-- Blog section -->
-        <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
+        <!-- <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
           <div class="relative">
             <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
               <h2 class="text-lg font-semibold text-cyan-600">Learn</h2>
@@ -364,41 +366,41 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="bg-white">
-          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-10 lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
               <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Used by the world's most average companies</h2>
-                <p class="mt-3 max-w-3xl text-lg text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue.</p>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Awards & Recognitions</h2>
+                <p class="mt-3 max-w-3xl text-lg text-gray-500">Take a glance at our Awards & Recognitions. This is how we made success stories for over 5+ years with our market-leading digitally advanced software solutions.</p>
                 <div class="mt-8 sm:flex">
-                  <div class="rounded-md shadow">
+                  <!-- <div class="rounded-md shadow">
                     <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Create Account</a>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
                     <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-100 px-5 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200">Contact Us</a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation" />
+                  <img class="max-h-36" src="/award1.png" alt="award 1" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                  <img class="max-h-36" src="/award2.png" alt="award 2" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                  <img class="max-h-36" src="/award3.png" alt="award 3" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel" />
+                  <img class="max-h-36" src="/award4.png" alt="award 4" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
+                  <img class="max-h-36" src="/award5.png" alt="award 5" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic" />
+                  <img class="max-h-36" src="/award6.png" alt="award 6" />
                 </div>
               </div>
             </div>
@@ -410,17 +412,16 @@
         <div class="relative bg-gray-900">
           <div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
             <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100" alt="" />
-            <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply" />
+            <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-yellow-200 to-orange-400 mix-blend-multiply" />
           </div>
           <div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
             <div class="md:ml-auto md:w-1/2 md:pl-10">
-              <h2 class="text-lg font-semibold text-gray-300">Award winning support</h2>
-              <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
-              <p class="mt-3 text-lg text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
+              <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready To Get Started?</p>
+              <p class="mt-3 text-lg text-gray-300">Consistently recognized as one of India’s best software development companies with the proven success of over 5+ years with hundreds of customers globally. You can entrust us with your software development and outsourcing needs.</p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
                   <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
-                    Visit the help center
+                    Contact Us
                     <ArrowTopRightOnSquareIcon class="-mr-1 ml-3 h-5 w-5 text-gray-400" aria-hidden="true" />
                   </a>
                 </div>
@@ -445,7 +446,7 @@
                 </a>
               </div>
             </div>
-            <div class="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+            <!-- <div class="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div class="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 class="text-base font-medium text-gray-900">Solutions</h3>
@@ -482,7 +483,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="mt-12 border-t border-gray-200 py-8">
             <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Bitatech, Inc. All rights reserved.</p>
@@ -630,14 +631,20 @@ const navigation = [
 ]
 const features = [
   {
-    name: 'Blockchain',
-    description: 'We provide NFTs, DEX, CEX, eWallet Development, ICO/IEO/STO, Smart Contracts Development to effortlessly leverage Blockchain solutions.',
-    icon: CloudArrowUpIcon,
+    name: 'Software Development',
+    description: 'We’re building a new generation of innovative software companies.',
+    icon: ServerIcon,
   },
   {
     name: 'Mobile App Development',
     description: 'As a leading mobile app development company, we have years of experience creating innovative, high-quality applications for our clients.',
     icon: ServerIcon,
+  },
+  {
+    name: 'DevOps Solutions',
+    description:
+      'Boost efficiency and minimize costs with the help of our DevOps experts.',
+    icon: CogIcon,
   },
   {
     name: 'MVP Product Development',
@@ -650,16 +657,10 @@ const features = [
     icon: ShieldCheckIcon,
   },
   {
-    name: 'DevOps Solutions',
-    description:
-      'Boost efficiency and minimize costs with the help of our DevOps experts.',
-    icon: CogIcon,
-  },
-  {
-    name: 'Software Development',
-    description: 'We’re building a new generation of innovative software companies.',
-    icon: ServerIcon,
-  },
+    name: 'Blockchain',
+    description: 'We provide NFTs, DEX, CEX, eWallet Development, ICO/IEO/STO, Smart Contracts Development to effortlessly leverage Blockchain solutions.',
+    icon: CloudArrowUpIcon,
+  }
 ]
 const blogPosts = [
   {
