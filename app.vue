@@ -133,7 +133,7 @@
         <div class="bg-white">
           <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-10">
             <div class="space-y-12">
-              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Engineering & Consulting</h2>
+              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl sm:w-full lg:w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Engineering & Consulting</h2>
 
               <ul role="list" class="space-y-20 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-20 lg:space-y-0">
                 <li v-for="reason in whyUs" :key="reason.name">
@@ -148,11 +148,11 @@
                     <div class="sm:col-span-2">
                       <div class="space-y-4">
                         <div class="space-y-1 text-lg font-medium leading-6">
-                          <h3>{{ reason.name }}</h3>
-                          <p class="text-indigo-600">{{ reason.role }}</p>
+                          <h3 class="text-orange-500 text-center lg:text-left text-2xl">{{ reason.name }}</h3>
+                          <p class="text-indigo-600 sm:text-center lg:text-left">{{ reason.role }}</p>
                         </div>
                         <div class="text-lg">
-                          <p class="text-gray-500">{{ reason.bio }}</p>
+                          <p class="text-gray-500 text-center lg:text-left">{{ reason.bio }}</p>
                         </div>
                       </div>
                     </div>
@@ -224,35 +224,59 @@
         </div>
 
         <!-- Testimonial section -->
-        <div class="bg-gradient-to-r from-stone-200 to-gray-600 pb-16 lg:relative lg:z-10 lg:pb-0">
-          <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
-            <div class="relative lg:-my-8">
-              <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
-              <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
-                <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                  <img class="object-cover lg:h-full lg:w-full" src="/avatar-vp.png" alt="" />
+        <section class="bg-gray-500">
+          <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
+            <div class="py-12 px-6 md:flex md:flex-col md:border-r md:border-gray-500 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
+              <div class="md:flex-shrink-0">
+                <img class="h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-6.png" alt="" />
+              </div>
+              <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
+                <div class="relative text-lg font-medium text-white md:flex-grow">
+                  <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p class="relative">Bitatech is an external software services provider but their way of working will make you feel like you have a bigger in-house engineering team!”</p>
                 </div>
-              </div>
-            </div>
-            <div class="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
-              <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
-                <blockquote>
-                  <div>
-                    <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                      <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                    </svg>
-                    <p class="mt-6 text-2xl font-medium text-white">Bitatech is an external software services provider but their way of working will make you feel like you have a bigger in-house engineering team!”</p>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div class="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img class="h-12 w-12 rounded-full" src="/avatar-vp.png" alt="" />
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">Vinesh</div>
+                      <div class="text-base font-medium text-indigo-200">CEO, notionAI</div>
+                    </div>
                   </div>
-                  <footer class="mt-6">
-                    <p class="text-base font-medium text-white">Vinesh</p>
-                    <p class="text-base font-medium text-yellow-500">CEO at notionAI</p>
-                  </footer>
-                </blockquote>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="border-t-2 border-gray-500 py-12 px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+              <div class="md:flex-shrink-0">
+                <img class="h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-9.png" alt="" />
               </div>
+              <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
+                <div class="relative text-lg font-medium text-white md:flex-grow">
+                  <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-400" fill="currentColor" viewBox="0 0 32 32">
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p class="relative">The excellent engineering team at Bitatech helped us build a performant and beautiful e-commerce website for our beloved fashion brand. This directly increases our sales revenue by 200%. Massive thank you!</p>
+                </div>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div class="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img class="h-12 w-12 rounded-full" src="/avatar-ceo-everluxe.jpg" alt="" />
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">Linda</div>
+                      <div class="text-base font-medium text-indigo-200">Everluxe CEO, Designer Fashion</div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
             </div>
           </div>
-        </div>
-
+        </section>
+       
         <!-- Our Client -->
         <div class="bg-white">
           <div class="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
@@ -299,7 +323,7 @@
             </div>
             <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
               <!-- <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p> -->
-              <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company Awarded by the VINASA</h1>
+              <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company</h1>
             </div>
           </div>
 
@@ -394,13 +418,13 @@
                   <img class="max-h-36" src="/award3.png" alt="award 3" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-36" src="/award4.png" alt="award 4" />
+                  <img class="max-h-36" src="/award4.jpeg" alt="award 4" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-36" src="/award5.png" alt="award 5" />
+                  <img class="max-h-36" src="/award5.jpeg" alt="award 5" />
                 </div>
                 <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                  <img class="max-h-36" src="/award6.png" alt="award 6" />
+                  <img class="max-h-36" src="/award6.webp" alt="award 6" />
                 </div>
               </div>
             </div>
@@ -627,7 +651,7 @@ const metrics = [
   { id: 4, stat: '12M+', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
 ]
 const navigation = [
-  { name: 'Company', href: '#' }
+  { name: 'Portfolio', href: '#' }
 ]
 const features = [
   {
