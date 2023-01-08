@@ -26,8 +26,7 @@
     "@heroicons/vue": "^2.0.13",
     "@prismicio/slice-simulator-vue": "^0.2.2",
     "@supabase/supabase-js": "^2.2.2",
-    "tw-elements": "^1.0.0-alpha13",
-    "vue3-carousel": "^0.2.9"
+    "tw-elements": "^1.0.0-alpha13"
   },
   "packageManager": "yarn@1.22.18"
 }
