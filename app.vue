@@ -71,8 +71,8 @@
                     <ChevronRightIcon class="ml-2 h-5 w-5 text-gray-500" aria-hidden="true" />
                   </a> -->
                   <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span class="block">Web & Mobile App, SaaS, Web3 Studio</span>
-                    <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">Development Company</span>
+                    <span class="block">Web & Mobile apps, SaaS, Web3</span>
+                    <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">Software Consulting and Development Studio</span>
                   </h1>
                   <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.</p>
                   <!-- <div class="mt-10 sm:mt-12">
@@ -94,7 +94,7 @@
               <div class="mt-12 sm:-mb-48 lg:relative lg:m-0">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-finaly.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/banner-bitatech-finaly.png" alt="" style="width: 100%; height: 100%; object-fit: contain;"/>
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@
         <div class="relative bg-white py-16 sm:py-24 lg:py-32">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-lg font-semibold text-cyan-600">OUR SERVICES</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global SDaaS / Blockchain & IT Consulting</p>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global SDaaS / IT Consulting & Blockchain</p>
             <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly professional team strives to provide our global clients with full-stack solutions by multiple platforms, languages in a timely manner.</p>
             <div class="mt-12">
               <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -228,7 +228,7 @@
           <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
             <div class="py-12 px-6 md:flex md:flex-col md:border-r md:border-gray-500 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
               <div class="md:flex-shrink-0">
-                <img class="h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-6.png" alt="" />
+                <img class="h-12 w-12 rounded-full lg:h-16 lg:w-16" src="/client-bitatech-6.png" alt="" />
               </div>
               <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
                 <div class="relative text-lg font-medium text-white md:flex-grow">
@@ -240,7 +240,7 @@
                 <footer class="mt-8">
                   <div class="flex items-start">
                     <div class="inline-flex flex-shrink-0 rounded-full border-2 border-white">
-                      <img class="h-12 w-12 rounded-full" src="/avatar-vp.png" alt="" />
+                      <img class="object-cover h-16 w-16 rounded-full" src="/avatar-vp.png" alt="" />
                     </div>
                     <div class="ml-4">
                       <div class="text-base font-medium text-white">Vinesh</div>
@@ -252,7 +252,7 @@
             </div>
             <div class="border-t-2 border-gray-500 py-12 px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
               <div class="md:flex-shrink-0">
-                <img class="h-20 w-20 rounded-full lg:h-24 lg:w-24" src="/client-bitatech-9.png" alt="" />
+                <img class="h-12 w-12 rounded-full lg:h-16 lg:w-16" src="/client-bitatech-9.png" alt="" />
               </div>
               <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
                 <div class="relative text-lg font-medium text-white md:flex-grow">
@@ -264,7 +264,7 @@
                 <footer class="mt-8">
                   <div class="flex items-start">
                     <div class="inline-flex flex-shrink-0 rounded-full border-2 border-white">
-                      <img class="h-12 w-12 rounded-full" src="/avatar-ceo-everluxe.jpg" alt="" />
+                      <img class="object-cover h-16 w-16 rounded-full" src="/avatar-ceo-everluxe.jpg" alt="" />
                     </div>
                     <div class="ml-4">
                       <div class="text-base font-medium text-white">Linda</div>
@@ -316,34 +316,30 @@
         <!-- award -->
         <div class="bg-white">
           <!-- Header -->
-          <div class="relative bg-gray-800 pb-32">
+          <div class="relative bg-gray-800">
             <div class="absolute inset-0">
               <img class="h-full w-full object-cover" src="/banner-award.jpeg" alt="" />
               <div class="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true" />
             </div>
             <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
               <!-- <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p> -->
-              <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company</h1>
-            </div>
-          </div>
-
-          <!-- Overlapping cards -->
-          <section class="relative z-10 mx-auto -mt-32 max-w-7xl px-4 pb-32 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
-            <h2 class="sr-only" id="contact-heading">SAO KHUE AWARD</h2>
-            <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-              <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-white shadow-xl">
-                <div class="relative flex-1">
-                  <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
-                    <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                      <img v-if="award.image === '/award-1.png'" class="object-cover lg:h-full lg:w-full" src="/award-1.png" alt="" />
-                      <img v-else-if="award.image === '/award-4.webp'" class="object-cover lg:h-full lg:w-full" src="/award-4.webp" alt="" />
-                      <img v-else class="object-cover lg:h-full lg:w-full" src="/award-3.png" alt="" />
+              <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+                <h1 class="col-span-2 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company</h1>
+                <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-2 lg:gap-y-0 lg:gap-x-8">
+                  <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-white shadow-xl">
+                    <div class="relative flex-1">
+                      <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+                        <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                          <img v-if="award.image === '/award-1.png'" class="object-cover lg:h-full lg:w-full" src="/award-1.png" alt="" />
+                          <img v-else class="object-contain lg:h-full lg:w-full" src="/top-50.jpeg" alt="" />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
 
         <!-- Blog section -->
@@ -441,7 +437,7 @@
           <div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
             <div class="md:ml-auto md:w-1/2 md:pl-10">
               <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready To Get Started?</p>
-              <p class="mt-3 text-lg text-gray-300">Consistently recognized as one of India’s best software development companies with the proven success of over 5+ years with hundreds of customers globally. You can entrust us with your software development and outsourcing needs.</p>
+              <p class="mt-3 text-lg text-gray-300">Consistently recognized as one of Vietnam’s best software development companies with the proven success of over 5+ years with hundreds of customers globally. You can entrust us with your software development and outsourcing needs.</p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
                   <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
@@ -524,11 +520,11 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import {
   ArrowPathIcon,
   Bars3Icon,
-  CloudArrowUpIcon,
+  CubeIcon,
   CogIcon,
   LockClosedIcon,
   ServerIcon,
-  ShieldCheckIcon,
+  CheckBadgeIcon,
   XMarkIcon,
   CursorArrowRaysIcon,
   EnvelopeOpenIcon,
@@ -538,7 +534,11 @@ import {
   CodeBracketIcon,
   PhoneIcon,
   NewspaperIcon,
-  LifebuoyIcon
+  LifebuoyIcon,
+  ComputerDesktopIcon,
+  DevicePhoneMobileIcon,
+  CloudIcon,
+  RocketLaunchIcon
 } from '@heroicons/vue/24/outline'
 import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/vue/20/solid'
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid'
@@ -550,11 +550,7 @@ const awards = [
   },
   {
     name: 'Top softwawre',
-    image: '/award-4.webp',
-  },
-  {
-    name: 'AWS',
-    image: '/award-3.png',
+    image: '/top-50.jpeg',
   }
 ]
 
@@ -640,7 +636,7 @@ const whyUs = [
 const stats = [
   { id: 1, name: 'COUNTRIES', stat: '12', icon: MapPinIcon },
   { id: 2, name: 'CUSTOMERS', stat: '160+', icon: UserGroupIcon },
-  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '300+', icon: ShieldCheckIcon },
+  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '300+', icon: CheckBadgeIcon },
   { id: 4, name: 'DEVELOPERS', stat: '450+', icon: CodeBracketIcon }
 ]
 
@@ -651,39 +647,38 @@ const metrics = [
   { id: 4, stat: '12M+', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
 ]
 const navigation = [
-  { name: 'Portfolio', href: '#' }
 ]
 const features = [
   {
     name: 'Software Development',
     description: 'We’re building a new generation of innovative software companies.',
-    icon: ServerIcon,
+    icon: ComputerDesktopIcon,
   },
   {
     name: 'Mobile App Development',
     description: 'As a leading mobile app development company, we have years of experience creating innovative, high-quality applications for our clients.',
-    icon: ServerIcon,
+    icon: DevicePhoneMobileIcon,
   },
   {
     name: 'DevOps Solutions',
     description:
       'Boost efficiency and minimize costs with the help of our DevOps experts.',
-    icon: CogIcon,
+    icon: CloudIcon,
   },
   {
     name: 'MVP Product Development',
     description: 'Bitatech Technology can provide a full-scale team to support the entire development lifecycle or fill the gaps in your MVP team. No matter your needs, we follow our proven methodology for ensuring quality and success for your minimum viable product (MVP).',
-    icon: ArrowPathIcon,
+    icon: RocketLaunchIcon,
   },
   {
     name: 'Software Testing',
     description: 'Increase the speed, accuracy, and security of your QA and software testing with comprehensive services that deliver better products for your end users.',
-    icon: ShieldCheckIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: 'Blockchain',
     description: 'We provide NFTs, DEX, CEX, eWallet Development, ICO/IEO/STO, Smart Contracts Development to effortlessly leverage Blockchain solutions.',
-    icon: CloudArrowUpIcon,
+    icon: CubeIcon,
   }
 ]
 const blogPosts = [
