@@ -202,7 +202,7 @@
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-lg font-semibold text-cyan-600">OUR SERVICES</h2>
             <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global Software Consulting, Design and Development</p>
-            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly experienced engineering teams provide global businesses with full-stack solutions on multiple platforms and languages, always in a timely and cost-effective manner.ss</p>
+            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly experienced engineering teams provide global businesses with full-stack solutions on multiple platforms and languages, always in a timely and cost-effective manner.</p>
             <div class="mt-12">
               <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <div v-for="feature in features" :key="feature.name" class="pt-6">
