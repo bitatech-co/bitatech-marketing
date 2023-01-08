@@ -623,7 +623,7 @@ const whyUs = [
     name: 'Accelerate Speed to Market',
     role: '',
     imageUrl: '/why-bitatech-icon-3.svg',
-    bio: 'Achieve complete CICD, continuos integration and continuous delivery, to outpace your competitors with shorter time to market.',
+    bio: 'Achieve complete CICD, continuous integration and continuous delivery, to outpace your competitors with shorter time to market.',
   },
   {
     name: 'Expand Your Team Capacity',
