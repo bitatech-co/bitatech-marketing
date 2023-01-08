@@ -25,7 +25,7 @@
             </div>
             <div class="hidden md:flex md:items-center md:space-x-6">
               <!-- <a href="#" class="text-base font-medium text-white hover:text-gray-300">Log in</a> -->
-              <a href="#" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">Contact Us</a>
+              <a href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">Contact Us</a>
             </div>
           </nav>
         </div>
@@ -49,7 +49,7 @@
                   <a v-for="item in navigation" :key="item.name" :href="item.href" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                 </div>
                 <div class="mt-6 px-5">
-                  <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Contact Us</a>
+                  <a href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Contact Us</a>
                 </div>
                 <div class="mt-6 px-5">
                   <!-- <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p> -->
@@ -133,7 +133,7 @@
         <div class="bg-white">
           <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-10">
             <div class="space-y-12">
-              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl sm:w-full lg:w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Engineering & Consulting</h2>
+              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl sm:w-full lg:w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Development & Consulting</h2>
 
               <ul role="list" class="space-y-20 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-20 lg:space-y-0">
                 <li v-for="reason in whyUs" :key="reason.name">
@@ -201,8 +201,8 @@
         <div class="relative bg-white py-16 sm:py-24 lg:py-32">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-lg font-semibold text-cyan-600">OUR SERVICES</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global SDaaS / IT Consulting & Blockchain</p>
-            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly professional team strives to provide our global clients with full-stack solutions by multiple platforms, languages in a timely manner.</p>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global Software Consulting, Design and Development</p>
+            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Our dedicated and highly experienced engineering teams provide global businesses with full-stack solutions on multiple platforms and languages, always in a timely and cost-effective manner.ss</p>
             <div class="mt-12">
               <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <div v-for="feature in features" :key="feature.name" class="pt-6">
@@ -283,7 +283,7 @@
             <div class="space-y-8 sm:space-y-12">
               <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Our Clients</h2>
-                <p class="text-xl text-gray-500">Proudly partnered with 160+ clients from diverse industries including Banking & Finance, Automotive, Retail, Health Care, Education, Media & Entertainment</p>
+                <p class="text-xl text-gray-500">Proudly partnered with {{numberClient}}+ clients from diverse industries including Banking & Finance, Automotive, Retail, Health Care, Education, Media & Entertainment</p>
               </div>
               <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
                 <li v-for="client in Clients" :key="client.name">
@@ -324,7 +324,7 @@
             <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
               <!-- <p class="mb-6 max-w-3xl text-xl text-yellow-500">SAO KHUE AWARD</p> -->
               <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-                <h1 class="col-span-2 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">2020 & 2022 Leading Software Development Company</h1>
+                <h1 class="col-span-2 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">Leading Software Development Company</h1>
                 <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-2 lg:gap-y-0 lg:gap-x-8">
                   <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-white shadow-xl">
                     <div class="relative flex-1">
@@ -440,7 +440,7 @@
               <p class="mt-3 text-lg text-gray-300">Consistently recognized as one of Vietnam’s best software development companies with the proven success of over 5+ years with hundreds of customers globally. You can entrust us with your software development and outsourcing needs.</p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
-                  <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
+                  <a href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
                     Contact Us
                     <ArrowTopRightOnSquareIcon class="-mr-1 ml-3 h-5 w-5 text-gray-400" aria-hidden="true" />
                   </a>
@@ -543,6 +543,7 @@ import {
 import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/vue/20/solid'
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid'
 
+const numberClient = 90
 const awards = [
   {
     name: 'Sao Khue',
@@ -611,7 +612,7 @@ const whyUs = [
     name: 'Proven Software Success',
     role: '',
     imageUrl: '/why-bitatech-icon-1.svg',
-    bio: 'We’ve served over 120 clients and also develop our own in-house software, which sets us apart from the rest.',
+    bio: `We’ve served over ${numberClient} clients and also develop our own in-house software, which sets us apart from the rest.`,
   },
   {
     name: 'Develop Innovative Solutions',
@@ -623,7 +624,7 @@ const whyUs = [
     name: 'Accelerate Speed to Market',
     role: '',
     imageUrl: '/why-bitatech-icon-3.svg',
-    bio: 'Achieve complete CICD, continuos integration and continuous delivery, to outpace your competitors with shorter time to market.',
+    bio: 'Achieve complete CICD, continuous integration and continuous delivery, to outpace your competitors with shorter time to market.',
   },
   {
     name: 'Expand Your Team Capacity',
@@ -635,9 +636,9 @@ const whyUs = [
 
 const stats = [
   { id: 1, name: 'COUNTRIES', stat: '12', icon: MapPinIcon },
-  { id: 2, name: 'CUSTOMERS', stat: '160+', icon: UserGroupIcon },
-  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '300+', icon: CheckBadgeIcon },
-  { id: 4, name: 'DEVELOPERS', stat: '450+', icon: CodeBracketIcon }
+  { id: 2, name: 'CUSTOMERS', stat: `${numberClient}+`, icon: UserGroupIcon },
+  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '180+', icon: CheckBadgeIcon },
+  { id: 4, name: 'DEVELOPERS', stat: '200+', icon: CodeBracketIcon }
 ]
 
 const metrics = [
