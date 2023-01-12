@@ -431,8 +431,8 @@
         <!-- CTA Section -->
         <div class="relative bg-gray-900">
           <div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-            <img class="h-full w-full object-cover" src="/contact-us-team.png" alt="Contact us Bitatech" />
-            <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-yellow-200 to-orange-400 mix-blend-multiply" />
+            <img class="h-full w-full object-cover" src="/team-sales.jpg" alt="Contact us" />
+            <div aria-hidden="true" class="absolute inset-0 mix-blend-multiply" />
           </div>
           <div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
             <div class="md:ml-auto md:w-1/2 md:pl-10">
