@@ -454,56 +454,35 @@
       <footer class="bg-gray-50" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
         <div class="mx-auto max-w-md px-4 pt-12 sm:max-w-7xl sm:px-6 lg:px-8 lg:pt-16">
-          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+          <div class="xl:grid xl:grid-cols-2 xl:gap-8">
             <div class="space-y-8 xl:col-span-1">
               <!-- <img class="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300" alt="Company name" /> -->
               <img class="h-10" src="/logo-bitatech-2.png" alt="Bitatech"/>
               <p class="text-base text-gray-500">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices</p>
               <div class="flex space-x-6">
-                <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
-                  <span class="sr-only">{{ item.name }}</span>
-                  <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                <a href="https://www.linkedin.com/company/bitatech" target="_blank" class="text-gray-400 hover:text-gray-500">
+                  <span class="sr-only">Linkedin</span>
+                  <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
                 </a>
               </div>
             </div>
-            <!-- <div class="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-              <div class="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 class="text-base font-medium text-gray-900">Solutions</h3>
-                  <ul role="list" class="mt-4 space-y-4">
-                    <li v-for="item in footerNavigation.solutions" :key="item.name">
-                      <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">{{ item.name }}</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="mt-12 md:mt-0">
-                  <h3 class="text-base font-medium text-gray-900">Support</h3>
-                  <ul role="list" class="mt-4 space-y-4">
-                    <li v-for="item in footerNavigation.support" :key="item.name">
-                      <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">{{ item.name }}</a>
-                    </li>
-                  </ul>
+            <div class="">
+              <div>
+                <h3 class="text-2xl font-bold tracking-tight text-gray-900">Our Offices</h3>
+                <div class="mt-12 grid grid-cols-1 gap-2 xl:mt-0">
+                  <div class="my-2">
+                    <p class="text-gray-400 mb-2">Hanoi Head Office</p>
+                    <p>Dolphin Plaza, 6 Nguyen Hoang Street, My Dinh, Hanoi, Vietnam</p>
+                    <tel>Tel: +84-(0)9-7392-2149</tel>
+                  </div>
+                  <div>
+                    <p class="text-gray-400 mb-2">Sydney Office</p>
+                    <p>125 Wardell Rd, Earlwood, NSW 2206, Australia</p>
+                    <tel>Tel: +61-4-4451-8693</tel>
+                  </div>
                 </div>
               </div>
-              <div class="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 class="text-base font-medium text-gray-900">Company</h3>
-                  <ul role="list" class="mt-4 space-y-4">
-                    <li v-for="item in footerNavigation.company" :key="item.name">
-                      <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">{{ item.name }}</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="mt-12 md:mt-0">
-                  <h3 class="text-base font-medium text-gray-900">Legal</h3>
-                  <ul role="list" class="mt-4 space-y-4">
-                    <li v-for="item in footerNavigation.legal" :key="item.name">
-                      <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">{{ item.name }}</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div> -->
+            </div>
           </div>
           <div class="mt-12 border-t border-gray-200 py-8">
             <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Bitatech, Inc. All rights reserved.</p>
@@ -767,6 +746,21 @@ const footerNavigation = {
     { name: 'Terms', href: '#' },
   ],
   social: [
+    {
+      name: 'Linkedin',
+      href: 'https://www.linkedin.com/company/bitatech',
+      
+      icon: defineComponent({
+        render: () =>
+          h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
+            h('path', {
+              'fill-rule': 'evenodd',
+              d: 'M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z',
+              'clip-rule': 'evenodd',
+            }),
+          ]),
+      }),
+    },
     {
       name: 'Facebook',
       href: '#',
