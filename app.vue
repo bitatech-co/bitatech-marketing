@@ -473,11 +473,7 @@
                   <div class="my-2">
                     <p class="text-gray-400 mb-2">Hanoi Head Office</p>
                     <p>Dolphin Plaza, 6 Nguyen Hoang Street, My Dinh, Hanoi, Vietnam</p>
-<<<<<<< HEAD
                     <tel>Tel: +84-(0)9-6313-8192</tel>
-=======
-                    <tel>Tel: +84-(0)9-7392-2149</tel>
->>>>>>> 63fdf53 (update icon linkedin and address company;)
                   </div>
                   <div>
                     <p class="text-gray-400 mb-2">Sydney Office</p>
