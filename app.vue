@@ -71,7 +71,7 @@
                     <ChevronRightIcon class="ml-2 h-5 w-5 text-gray-500" aria-hidden="true" />
                   </a> -->
                   <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span class="block">Web & Mobile apps, SaaS, Web3</span>
+                    <span class="block">Web & Mobile apps, SaaS, AI, Web3</span>
                     <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">Software Consulting and Development Studio</span>
                   </h1>
                   <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.</p>
@@ -621,7 +621,7 @@ const stats = [
   { id: 1, name: 'COUNTRIES', stat: '12', icon: MapPinIcon },
   { id: 2, name: 'CUSTOMERS', stat: `${numberClient}+`, icon: UserGroupIcon },
   { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '180+', icon: CheckBadgeIcon },
-  { id: 4, name: 'DEVELOPERS', stat: '200+', icon: CodeBracketIcon }
+  { id: 4, name: 'DEVELOPERS', stat: '120+', icon: CodeBracketIcon }
 ]
 
 const metrics = [
