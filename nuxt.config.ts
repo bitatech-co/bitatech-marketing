@@ -13,7 +13,8 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/image-edge',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-swiper'
   ],
   buildModules: [
     '@nuxtjs/prismic',
@@ -30,6 +31,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  image: {}
+  image: {},
+  vue: {  
+    compilerOptions: {
+      isCustomElement: (tag) => ['tel'].includes(tag),
+    },
+  }
 })
 
