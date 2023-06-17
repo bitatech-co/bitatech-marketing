@@ -1,0 +1,7 @@
+{
+  "apiEndpoint": "https://bitatech-marketing.prismic.io/api/v2",
+  "repositoryName": "bitatech-marketing",
+  "adapter": "@slicemachine/adapter-universal",
+  "libraries": ["./slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}
