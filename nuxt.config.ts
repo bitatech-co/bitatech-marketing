@@ -21,11 +21,8 @@ export default defineNuxtConfig({
     "nuxt-swiper",
     "@nuxtjs/prismic",
   ],
-  buildModules: ["@nuxtjs/prismic"],
   prismic: {
     endpoint: "bitatech-marketing",
-    modern: true,
-    /* see configuration for more */
   },
   css: ["~/assets/css/tailwind.css"],
   postcss: {
