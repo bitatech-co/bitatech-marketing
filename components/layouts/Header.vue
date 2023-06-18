@@ -52,7 +52,7 @@
   </Popover>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import {
   Bars3Icon,

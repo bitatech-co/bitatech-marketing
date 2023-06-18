@@ -19,10 +19,10 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
     "nuxt-swiper",
-    "@nuxtjs/prismic",
   ],
-  prismic: {
-    endpoint: "bitatech-marketing",
+  build: {
+    transpile: [
+    ],
   },
   css: ["~/assets/css/tailwind.css"],
   postcss: {
