@@ -1,14 +1,14 @@
 <template>
   <Popover as="header" class="relative">
-    <div class="bg-gray-900 pt-6">
+    <div class="bg-gray-900 py-6">
       <nav class="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6" aria-label="Global">
         <div class="flex flex-1 items-center">
           <div class="flex w-full items-center justify-between md:w-auto">
-            <a href="#">
+            <NuxtLink to="/">
               <span class="sr-only">Your Company</span>
               <img class="h-8 w-auto sm:h-10" src="/logo-bitatech-2.png" />
               <!-- <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400" alt="" /> -->
-            </a>
+            </NuxtLink>
             <div class="-mr-2 flex items-center md:hidden">
               <PopoverButton class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
                 <span class="sr-only">Open main menu</span>

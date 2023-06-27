@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
     "nuxt-swiper",
+    "@nuxtjs/prismic"
   ],
   build: {
     transpile: [
@@ -37,4 +38,5 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => ["tel"].includes(tag),
     },
   },
+  prismic: { endpoint: "bitatech-marketing" }
 });
