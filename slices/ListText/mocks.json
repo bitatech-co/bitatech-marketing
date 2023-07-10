@@ -1,0 +1,28 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"item",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure labore ex incididunt. Est et irure culpa eiusmod aute non consequat pariatur exercitation esse consequat eiusmod excepteur Lorem elit. Id nostrud ullamco eiusmod commodo dolor id do est commodo laborum deserunt esse proident ut."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,6 +1,33 @@
 
 <script lang="ts" setup>
+const { client } = usePrismic()
+
 const numberClient = 90
+
+const { data: blogs } = await useAsyncData('blog', async () => {
+  const result = await client.getAllByType('blog', {
+    pageSize: 3,
+    page: 1
+  })
+  console.log('result:', result)
+  if (result) {
+    return result
+  } else {
+    return []
+  }
+})
+
+const posts = computed(() => {
+  const convertBlog = blogs.value?.map(blog => {
+    return {
+      uid: blog.uid,
+      lastPublicationDate: blog.last_publication_date,
+      thumbnail: blog.data?.thumbnail || '',
+      title: blog.data?.title || ''
+    }
+  })
+  return convertBlog || []
+})
 </script>
 
 <template>
@@ -26,11 +53,11 @@ const numberClient = 90
     <!-- award -->
     <HomePageAward />
 
-    <!-- Blog section -->
-    <HomePageBlogs />
-
     <!-- Awards And Recognitions -->
     <HomePageAwardsAndRecognitions />
+
+    <!-- Blog section -->
+    <HomePageBlogs v-if="posts && posts.length > 0" :posts="posts"/>
 
     <!-- CTA Section -->
     <HomePageCTA />

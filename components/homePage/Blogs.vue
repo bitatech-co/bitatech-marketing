@@ -1,108 +1,50 @@
 
-<script lang="ts" setup>
-const blogPosts = [
-  {
-    id: 1,
-    title: 'Boost your conversion rate',
-    href: '#',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { name: 'Article', href: '#' },
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-    preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
-    author: {
-      name: 'Roel Aufderehar',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      href: '#',
-    },
-    readingLength: '6 min',
-  },
-  {
-    id: 2,
-    title: 'How to use search engine optimization to drive sales',
-    href: '#',
-    date: 'Mar 10, 2020',
-    datetime: '2020-03-10',
-    category: { name: 'Video', href: '#' },
-    imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-    preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
-    author: {
-      name: 'Brenna Goyette',
-      imageUrl:
-        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      href: '#',
-    },
-    readingLength: '4 min',
-  },
-  {
-    id: 3,
-    title: 'Improve your customer experience',
-    href: '#',
-    date: 'Feb 12, 2020',
-    datetime: '2020-02-12',
-    category: { name: 'Case Study', href: '#' },
-    imageUrl:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-    preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-    author: {
-      name: 'Daniela Metz',
-      imageUrl:
-        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      href: '#',
-    },
-    readingLength: '11 min',
-  },
-]
+<script setup lang="ts">
+interface thumbnailType {
+  alt: string
+  copyright: string | null
+  url: string
+}
+
+interface blogType {
+  uid: string
+  lastPublicationDate: string | Date
+  thumbnail: thumbnailType
+  title: string
+}
+
+interface Props {
+  posts: blogType[] | never[]
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  posts: []
+})
 </script>
 
 <template>
-  <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
-    <div class="relative">
-      <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 class="text-lg font-semibold text-cyan-600">Learn</h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Helpful Resources</p>
-        <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+        <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
       </div>
-      <div class="mx-auto mt-12 grid max-w-md gap-8 px-4 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
-        <div v-for="post in blogPosts" :key="post.id" class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-          <div class="flex-shrink-0">
-            <img class="h-48 w-full object-cover" :src="post.imageUrl" alt="" />
+      <div class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <article v-for="post in posts" :key="post.uid" class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+          <img :src="post.thumbnail?.url" :alt="post.thumbnail?.alt" class="absolute inset-0 -z-10 h-full w-full object-cover" />
+          <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
+          <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+
+          <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+            <time :datetime="post.lastPublicationDate" class="mr-8">{{ $dayjs(post.lastPublicationDate).format('DD MMM YYYY') }}</time>
           </div>
-          <div class="flex flex-1 flex-col justify-between bg-white p-6">
-            <div class="flex-1">
-              <p class="text-sm font-medium text-cyan-600">
-                <a :href="post.category.href" class="hover:underline">{{ post.category.name }}</a>
-              </p>
-              <a :href="post.href" class="mt-2 block">
-                <p class="text-xl font-semibold text-gray-900">{{ post.title }}</p>
-                <p class="mt-3 text-base text-gray-500">{{ post.preview }}</p>
-              </a>
-            </div>
-            <div class="mt-6 flex items-center">
-              <div class="flex-shrink-0">
-                <a :href="post.author.href">
-                  <img class="h-10 w-10 rounded-full" :src="post.author.imageUrl" :alt="post.author.name" />
-                </a>
-              </div>
-              <div class="ml-3">
-                <p class="text-sm font-medium text-gray-900">
-                  <a :href="post.author.href" class="hover:underline">{{ post.author.name }}</a>
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500">
-                  <time :datetime="post.datetime">{{ post.date }}</time>
-                  <span aria-hidden="true">&middot;</span>
-                  <span>{{ post.readingLength }} read</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-white">
+            <NuxtLink :to="`/blogs/${post.uid}`">
+              <span class="absolute inset-0" />
+              {{ post.title }}
+            </NuxtLink>
+          </h3>
+        </article>
       </div>
     </div>
   </div>

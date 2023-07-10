@@ -24,6 +24,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.7",
     "@heroicons/vue": "^2.0.13",
+    "dayjs": "^1.11.9",
     "nuxt-swiper": "^1.1.0"
   }
 }

@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"topic": {
+				"__TYPE__": "FieldContent",
+				"value": "potatoes",
+				"type": "Text"
+			},
+			"label": {
+				"__TYPE__": "FieldContent",
+				"value": "chest",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]
