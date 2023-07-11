@@ -39,7 +39,7 @@ function convertHTML(item: any) {
   <div class="pb-4">
     <ul v-if="items" role="list" class="my-6 max-w-xl space-y-8 text-gray-600">
       <li v-for="item,idx in items" :key="idx" class="flex gap-x-3">
-        <CheckCircleIcon class="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+        <CheckCircleIcon class="mt-1 h-5 w-5 flex-none text-orange-400" aria-hidden="true" />
         <span v-html="convertHTML(item.item[0])"></span>
       </li>
     </ul>

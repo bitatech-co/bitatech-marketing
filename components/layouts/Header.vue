@@ -125,10 +125,10 @@
         </Popover>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a
-          href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company"
+        <NuxtLink
+          to="/contact-us"
           class="text-sm font-semibold leading-6 text-white"
-          >Contact Us</a
+          >Contact Us</NuxtLink
         >
       </div>
     </nav>
@@ -193,10 +193,10 @@
                 >
               </div>
               <div class="py-6">
-                <a
-                  href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company"
+                <NuxtLink
+                  to="/contact-us"
                   class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Contact Us</a
+                  >Contact Us</NuxtLink
                 >
               </div>
             </div>

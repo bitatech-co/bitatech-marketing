@@ -36,7 +36,7 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <figure class="mt-10 border-l border-indigo-600 pl-9 mb-8">
+  <figure class="mt-10 border-l border-orange-400 pl-9 mb-8">
     <blockquote class="font-semibold text-gray-900">
       <p>{{ primary.content }}</p>
     </blockquote>

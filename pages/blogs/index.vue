@@ -2,12 +2,11 @@
 const { client } = usePrismic()
 const currentPage = ref<Number>(1)
 
-const { data: blogs } = await useAsyncData('blog', async (currentPage = currentPage.value) => {
+const { data: blogs } = await useAsyncData('blog', async () => {
   const result = await client.getAllByType('blog', {
     pageSize: 10,
     page: currentPage.value
   })
-  console.log('result:', result)
   if (result) {
     return result
   } else {
@@ -16,6 +15,7 @@ const { data: blogs } = await useAsyncData('blog', async (currentPage = currentP
 })
 
 const posts = computed(() => {
+  if (!blogs.value) return []
   const convertBlog = blogs.value?.map(blog => {
     const description = blog.data?.slices.find(slice => slice.slice_type === 'description')
     return {

@@ -9,7 +9,6 @@ const { data: blogs } = await useAsyncData('blog', async () => {
     pageSize: 3,
     page: 1
   })
-  console.log('result:', result)
   if (result) {
     return result
   } else {
@@ -18,6 +17,7 @@ const { data: blogs } = await useAsyncData('blog', async () => {
 })
 
 const posts = computed(() => {
+  if (!blogs.value) return []
   const convertBlog = blogs.value?.map(blog => {
     return {
       uid: blog.uid,
