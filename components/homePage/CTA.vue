@@ -3,47 +3,28 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/vue/20/solid";
 </script>
 
 <template>
-  <div class="relative bg-gray-900">
-    <div
-      class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
-    >
-      <img
-        class="h-full w-full object-cover"
-        src="/team-sales.jpg"
-        alt="Contact us"
-      />
-      <div aria-hidden="true" class="absolute inset-0 mix-blend-multiply" />
-    </div>
-    <div
-      class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
-    >
-      <div class="md:ml-auto md:w-1/2 md:pl-10">
-        <p
-          class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl"
-        >
-          Ready To Get Started?
-        </p>
-        <p class="mt-3 text-lg text-gray-300">
-          Consistently recognized as one of Vietnam’s best software development
-          companies with the proven success of over 5+ years with hundreds of
-          customers globally. You can entrust us with your software development
-          and outsourcing needs.
-        </p>
-        <div class="mt-8">
-          <div class="inline-flex rounded-md shadow">
-            <NuxtLink
-              to="/contact-us"
-              class="inline-flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-yellow-400 to-orange-500 px-5 py-3 text-base font-medium text-white hover:bg-gray-50"
-            >
-              Contact Us
-              <ArrowTopRightOnSquareIcon
-                class="-mr-1 ml-3 h-5 w-5 text-blue-900"
-                aria-hidden="true"
-              />
-            </NuxtLink>
+  <!-- CTA section -->
+  <section class="relative isolate">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
+        <img class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm" src="/team-sales.jpg" alt="Contact us CTA" />
+        <div class="w-full flex-auto">
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready To Get Started?</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-300">
+            Consistently recognized as one of Vietnam’s best software development
+            companies with the proven success of over 5+ years with hundreds of
+            customers globally. You can entrust us with your software development
+            and outsourcing needs.
+          </p>
+          
+          <div class="mt-10 flex">
+            <NuxtLink to="/contact-us" class="text-sm font-semibold leading-6 bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent">Contact Us <span aria-hidden="true">&rarr;</span></NuxtLink>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <div class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
+      <div class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
+    </div>
+  </section>
 </template>

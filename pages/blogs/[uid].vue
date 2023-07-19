@@ -2,17 +2,17 @@
 const { client } = usePrismic()
 const route = useRoute()
 
-const { data: blog } = await useAsyncData('blog', async () => {
-  const result = await client.getByUID('blog', route.params.id.toString())
+const blogData = ref([])
 
+onMounted(async () => {
+  const result = await client.getByUID("blog", route.params.uid.toString());
+  console.log('result', result)
   if (result) {
-    return result
-  } else {
-    return { data: null }
+    blogData.value = result 
   }
 })
 
-const slices = computed(() => blog.value.data?.slices || [])
+const slices = computed(() => blogData.value.data?.slices || [])
 </script>
 
 <template>
