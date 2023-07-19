@@ -1,0 +1,23 @@
+{
+  "id": "normal_text",
+  "type": "SharedSlice",
+  "name": "NormalText",
+  "description": "NormalText",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "normal_text": {
+          "type": "Text",
+          "config": { "label": "normalText", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
