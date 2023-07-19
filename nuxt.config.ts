@@ -39,7 +39,9 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => ["tel"].includes(tag),
     },
   },
-  prismic: { endpoint: "bitatech-marketing" },
+  prismic: {
+    endpoint: "https://bitatech-marketing.cdn.prismic.io/api/v2"
+  },
   // entirely optional
   calendly: {
     /**

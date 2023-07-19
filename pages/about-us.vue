@@ -132,13 +132,13 @@ const benefits = [
             </div>
             <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
               <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                <img src="/about-us-7.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                <img src="/about-us-13.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
               </div>
               <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                <img src="/about-us-8.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                <img src="/about-us-8.jpg" alt="" class="aspect-[7/5] w-[30rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
               </div>
               <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                <img src="/about-us-13.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                <img src="/about-us-7.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
               </div>
             </div>
           </div>
