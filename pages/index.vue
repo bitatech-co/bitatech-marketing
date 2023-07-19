@@ -18,7 +18,7 @@ const { data: blogs } = await useAsyncData('blog', async () => {
 
 const posts = computed(() => {
   if (!blogs.value) return []
-  const sliceData = blogs.value.slice(0, 3)
+  const sliceData = blogs.value?.slice(0, 3)
   const convertBlog = sliceData?.map(blog => {
     return {
       uid: blog.uid,
