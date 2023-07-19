@@ -32,7 +32,7 @@ const testimonials = [
     companyLogo: '/client-bitatech-14.png',
     companyName: 'Cardina',
     content:
-      'Our experience working with Bitatech has been exceptional. They understood our vision for our fashion business website and mobile app right from the start and delivered beyond our expectations. The team at Bitatech showed professionalism, sincerity, and friendliness throughout the entire process, making it a pleasure to work with them. ',
+      'Our experience working with Bitatech has been exceptional. They understood our vision right from the start and delivered beyond our expectations. Their expertise in the e-Commerce industry, combined with their attention to detail and creative ideas, resulted in a stunning and user-friendly platform that perfectly represents our brand. Highly recommend Bitatech!',
     avatar: '/avatar_cmo_cardina.jpg',
     name: 'Tien Hoang',
     position: 'CMO & Product Manager of Cardina',
