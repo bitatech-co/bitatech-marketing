@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-900 sticky top-0 z-30">
+  <header class="bg-gray-900 sticky top-0 z-30 shadow-[0_35px_60px_-15px_rgba(255,255,255,0.1)]">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       aria-label="Global"
@@ -128,7 +128,7 @@
         <NuxtLink
           to="/contact-us"
           class="text-sm font-semibold leading-6 text-white"
-          >Contact Us</NuxtLink
+          >Contact Us &rarr;</NuxtLink
         >
       </div>
     </nav>
@@ -140,11 +140,12 @@
     >
       <div class="fixed inset-0 z-10" />
       <DialogPanel
+        v-slot="{ close }"
         class="fixed inset-y-0 right-0 z-10 flex w-full flex-col justify-between overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
       >
         <div class="p-6">
           <div class="flex items-center justify-between">
-            <NuxtLink to="/" class="-m-1.5 p-1.5">
+            <NuxtLink to="/" class="-m-1.5 p-1.5" @click="() => mobileMenuOpen = false">
               <span class="sr-only">Your Company</span>
               <img class="h-8 w-auto" src="/logo-bitatech-2.png" alt="" />
             </NuxtLink>
@@ -158,12 +159,13 @@
             </button>
           </div>
           <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
+            <div class="divide-y divide-gray-500/10">
+              <div class="py-6">
                 <NuxtLink
                   v-for="item in products"
                   :key="item.name"
                   :to="item.to"
+                  @click="() => close()"
                   class="group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   <div
@@ -181,7 +183,8 @@
               <div class="space-y-2 py-6">
                 <NuxtLink
                   :to="{ path: '/', hash: '#ourServices' }"
-                  class="text-sm font-semibold leading-6 text-white"
+                  class="-mx-3 px-3 block rounded-lg py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  @click="() => mobileMenuOpen = false"
                   >Our Services</NuxtLink
                 >
                 <NuxtLink
@@ -189,6 +192,7 @@
                   :key="item.name"
                   :to="item.to"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  @click="() => mobileMenuOpen = false"
                   >{{ item.name }}</NuxtLink
                 >
               </div>
@@ -196,7 +200,8 @@
                 <NuxtLink
                   to="/contact-us"
                   class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Contact Us</NuxtLink
+                  @click="() => mobileMenuOpen = false"
+                  >Contact Us &rarr;</NuxtLink
                 >
               </div>
             </div>
@@ -238,51 +243,21 @@ const products = [
     description: "Startup Services for app ideas",
     to: "/products/startup-services",
     icon: ChartPieIcon,
-  },
-  {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    to: "/products/startup-services",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    to: "/products/startup-services",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    to: "/products/startup-services",
-    icon: SquaresPlusIcon,
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    to: "/products/startup-services",
-    icon: ArrowPathIcon,
-  },
+  }
 ]
 
 const company = [
   {
     name: "About us",
-    to: "/blogs",
+    to: { path: '/about-us' },
     description:
       "Learn more about our company values and mission to empower others",
   },
   {
     name: "Careers",
-    to: "/blogs",
+    to: { path: '/about-us', hash: '#careers'},
     description:
       "Looking for you next career opportunity? See all of our open positions",
-  },
-  {
-    name: "Support",
-    to: "/blogs",
-    description:
-      "Get in touch with our dedicated support team or reach out on our community forums",
   },
   {
     name: "Blog",

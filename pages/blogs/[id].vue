@@ -1,8 +1,9 @@
 <script setup lang="ts">
-const { client } = usePrismic();
+const { client } = usePrismic()
+const route = useRoute()
 
 const { data: blog } = await useAsyncData('blog', async () => {
-  const result = await client.getByUID('blog', 'javascript-for-beginners')
+  const result = await client.getByUID('blog', route.params.id.toString())
 
   if (result) {
     return result

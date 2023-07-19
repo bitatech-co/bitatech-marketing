@@ -20,40 +20,46 @@ const testimonials = [
     position: 'Everluxe CEO, Designer Fashion',
   },
   {
-    companyLogo: '/holayoga_logo_svg.svg',
+    companyLogo: '/channels4_profile.jpg',
     companyName: 'HolaYoga',
     content:
       'Thank you Bitatech for turning my business ideas into real website, and mobile apps. Your work is of incredibly high quality and speed. The apps enable our online Masterclass and subscription revenue, while allow me to focus on my business and do what I love: spreading yoga to the world 🧘‍♀️ ',
     avatar: '/avatar_CEO_holayoga.jpg',
     name: 'Lan Nguyen',
     position: 'CEO & Founder of HolaYoga (Australia & Vietnam)',
+  },
+  {
+    companyLogo: '/client-bitatech-14.png',
+    companyName: 'Cardina',
+    content:
+      'Our experience working with Bitatech has been exceptional. They understood our vision for our fashion business website and mobile app right from the start and delivered beyond our expectations. The team at Bitatech showed professionalism, sincerity, and friendliness throughout the entire process, making it a pleasure to work with them. ',
+    avatar: '/avatar_cmo_cardina.jpg',
+    name: 'Tien Hoang',
+    position: 'CMO & Product Manager of Cardina',
   }
 ];
 </script>
 
 <template>
   <!-- Testimonial section -->
-  <section class="bg-gray-500">
-    <div class="mx-auto max-w-7xl">
+  <section class="bg-gray-900">
+    <div class="mx-auto max-w-7xl px-10">
       <Swiper
-        :modules="[SwiperAutoplay, SwiperPagination]"
+        :modules="[SwiperAutoplay, SwiperGrid]"
         :loop="true"
         :autoplay="{
-          delay: 4000,
-          disableOnInteraction: false,
-          reverseDirection: true
+          delay: 5000,
+          disableOnInteraction: true,
         }"
         :breakpoints="{
           320: {
-            slidesPerView: 'auto',
+            slidesPerView: 1,
+            spaceBetween: 5,
           },
           1024: {
             slidesPerView: 2,
+            spaceBetween: 20,
           },
-        }"
-        :pagination="{
-          type: 'bullets',
-          clickable: false,
         }"
       >
         <SwiperSlide
@@ -62,7 +68,7 @@ const testimonials = [
           class="custom-swiper"
         >
           <div
-            class="py-12 px-6 md:flex md:flex-col md:border-r md:border-gray-500 md:py-16 lg:px-16"
+            class="min-h-[400px] py-12 md:flex md:flex-col md:py-10 lg:px-10 shadow-lg hover:shadow-xl transform mx-auto md:mx-0 rounded-lg bg-white/50 ring-1 ring-white/10 sm:rounded-3xl px-6 pb-8"
           >
             <div class="md:flex-shrink-0">
               <img
@@ -100,7 +106,7 @@ const testimonials = [
                   </div>
                   <div class="ml-4">
                     <div class="text-base font-medium text-white">{{ testimonial.name }}</div>
-                    <div class="text-base font-medium text-indigo-200">
+                    <div class="text-base font-medium text-orange-400">
                       {{ testimonial.position }}
                     </div>
                   </div>

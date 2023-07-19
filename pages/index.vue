@@ -7,7 +7,7 @@ const numberClient = 90
 const { data: blogs } = await useAsyncData('blog', async () => {
   const result = await client.getAllByType('blog', {
     pageSize: 3,
-    page: 1
+    page: 0
   })
   if (result) {
     return result
@@ -18,7 +18,8 @@ const { data: blogs } = await useAsyncData('blog', async () => {
 
 const posts = computed(() => {
   if (!blogs.value) return []
-  const convertBlog = blogs.value?.map(blog => {
+  const sliceData = blogs.value.slice(0, 3)
+  const convertBlog = sliceData?.map(blog => {
     return {
       uid: blog.uid,
       lastPublicationDate: blog.last_publication_date,
@@ -31,7 +32,7 @@ const posts = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div class="pb-20">
     <!-- Introduction -->
     <HomePageIntroduction />
 

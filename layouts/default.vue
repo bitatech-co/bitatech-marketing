@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white scroll-smooth">
+  <div class="bg-gray-900 scroll-smooth">
     <LayoutsHeader />
     <main>
       <slot />

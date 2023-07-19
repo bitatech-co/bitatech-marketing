@@ -31,16 +31,16 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/vue/20/solid";
         </p>
         <div class="mt-8">
           <div class="inline-flex rounded-md shadow">
-            <a
-              href="mailto:contact@bitatech.co?subject=Contact to Bitatech Company"
-              class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+            <NuxtLink
+              to="/contact-us"
+              class="inline-flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-yellow-400 to-orange-500 px-5 py-3 text-base font-medium text-white hover:bg-gray-50"
             >
               Contact Us
               <ArrowTopRightOnSquareIcon
-                class="-mr-1 ml-3 h-5 w-5 text-gray-400"
+                class="-mr-1 ml-3 h-5 w-5 text-blue-900"
                 aria-hidden="true"
               />
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

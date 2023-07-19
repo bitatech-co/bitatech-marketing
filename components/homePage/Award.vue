@@ -14,7 +14,7 @@ const awards = [
 
 <template>
   <!-- award -->
-  <div class="bg-white">
+  <div class="bg-gray-900">
     <!-- Header -->
     <div class="relative bg-gray-800">
       <div class="absolute inset-0">
@@ -26,7 +26,7 @@ const awards = [
         <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
           <h1 class="col-span-2 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">Leading Software Development Company</h1>
           <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-2 lg:gap-y-0 lg:gap-x-8">
-            <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-white shadow-xl">
+            <div v-for="award in awards" :key="award.name" class="flex flex-col rounded-2xl bg-gray-900 shadow-xl">
               <div class="relative flex-1">
                 <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
                   <div class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">

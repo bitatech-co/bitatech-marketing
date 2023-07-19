@@ -14,9 +14,9 @@ const props = withDefaults(defineProps<Props>(), {
 
 function convertHTML(item: any) {
   const splitString = item.text.split('')
-  const startPoint = item.spans[0].start
-  const endPoint = item.spans[0].end
-  const tag = item.spans[0].type
+  const startPoint = item.spans[0]?.start
+  const endPoint = item.spans[0]?.end
+  const tag = item.spans[0]?.type
 
   let text = ''
   for (let i = 0; i < splitString.length; i++) {
