@@ -2,16 +2,15 @@
 const { client } = usePrismic()
 const currentPage = ref<Number>(1)
 
-const blogs = ref([])
-
-onMounted(async () => {
+const { data: blogs } = await useAsyncData('blog', async () => {
   const result = await client.getAllByType('blog', {
-    pageSize: 10,
-    page: currentPage.value
+    pageSize: 3,
+    page: currentPage.value,
   })
-  console.log('result index', result)
   if (result) {
-    blogs.value = result
+    return result
+  } else {
+    return []
   }
 })
 
