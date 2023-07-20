@@ -2,13 +2,11 @@
 const { client } = usePrismic()
 const route = useRoute()
 
-const blogData = ref([])
-
-onMounted(async () => {
+const { data: blogData } = await useAsyncData('blog', async () => {
   const result = await client.getByUID("blog", route.params.uid.toString());
   console.log('result', result)
   if (result) {
-    blogData.value = result 
+    return result 
   }
 })
 

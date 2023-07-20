@@ -23,8 +23,7 @@ export default defineNuxtConfig({
     "nuxt-calendly"
   ],
   build: {
-    transpile: [
-    ],
+    transpile: ["@prismicio/vue"]
   },
   css: ["~/assets/css/tailwind.css"],
   postcss: {
