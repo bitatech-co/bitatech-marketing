@@ -8,10 +8,15 @@ export default defineNuxtConfig({
       meta: [
         // <meta name="description" content="My amazing site">
         {
+          hid: 'og-desc',
           name: "description",
           content:
             "We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.",
         },
+        { hid: 'og-type', property: 'og:type', content: 'website' },
+        { hid: 'og-title', property: 'og:title', content: 'Technology Services Company' },
+        { hid: 'og-image', property: 'og:image', content: '/logo-bitatech-full-white.jpg' },
+        { hid: 'og-url', property: 'og:url', content: 'https://bitatech.co' },
       ],
     },
   },
