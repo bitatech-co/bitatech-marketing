@@ -4,7 +4,7 @@
       <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
         <div>
           <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Awards & Recognitions</h2>
-          <p class="mt-3 max-w-3xl text-lg text-gray-400">Take a glance at our Awards & Recognitions. This is how we made success stories for over 5+ years with our market-leading digitally advanced software solutions.</p>
+          <p class="mt-3 max-w-3xl text-lg text-gray-400">Take a glance at our Awards & Recognitions. This is how we made success stories for over 4+ years with our market-leading digitally advanced software solutions.</p>
           <div class="mt-8 sm:flex">
             <!-- <div class="rounded-md shadow">
               <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Create Account</a>

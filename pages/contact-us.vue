@@ -1,3 +1,60 @@
+
+<script lang="ts" setup>
+import {
+  BuildingOffice2Icon,
+  EnvelopeIcon,
+  PhoneIcon,
+} from "@heroicons/vue/24/outline";
+
+const WEB3FORMS_ACCESS_KEY = ref('332ec88b-0d1f-42ff-8432-f5e5ce1ff9fe')
+
+const buttonLoading = ref(false)
+
+const sentContactUs = useCookie('sentContactUs', {
+  default: () => false,
+  maxAge: 30 * 60 * 60 * 24
+})
+
+const form = reactive({
+  first_name: '',
+  last_name: '',
+  email: '',
+  phone_number: '',
+  message: '',
+  budget: ''
+})
+
+const validateForm = computed(() => {
+  return !form.first_name || !form.last_name || !form.email || !form.phone_number || buttonLoading.value
+})
+
+const submitForm = async () => {
+  if (validateForm.value) return
+  buttonLoading.value = true
+  
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify({
+      access_key: WEB3FORMS_ACCESS_KEY.value,
+      name: form.first_name + form.last_name,
+      email: form.email,
+      phone: form.phone_number,
+      message: form.message,
+      budget: form.budget
+    })
+  })
+  const result = await response.json();
+  if (result.success) {
+    buttonLoading.value = false
+    sentContactUs.value = true
+  }
+}
+</script>
+
 <template>
   <div class="relative isolate bg-gray-900">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -300,59 +357,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts" setup>
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/vue/24/outline";
-
-const WEB3FORMS_ACCESS_KEY = ref('fe5af922-43cd-461f-b512-acda2de64de5')
-
-const buttonLoading = ref(false)
-
-const sentContactUs = useCookie('sentContactUs', {
-  default: () => false,
-  maxAge: 30 * 60 * 60 * 24
-})
-
-const form = reactive({
-  first_name: '',
-  last_name: '',
-  email: '',
-  phone_number: '',
-  message: '',
-  budget: ''
-})
-
-const validateForm = computed(() => {
-  return !form.first_name || !form.last_name || !form.email || !form.phone_number || buttonLoading.value
-})
-
-const submitForm = async () => {
-  if (validateForm.value) return
-  buttonLoading.value = true
-  
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify({
-      access_key: WEB3FORMS_ACCESS_KEY.value,
-      name: form.first_name + form.last_name,
-      email: form.email,
-      phone: form.phone_number,
-      message: form.message,
-      budget: form.budget
-    })
-  })
-  const result = await response.json();
-  if (result.success) {
-    buttonLoading.value = false
-    sentContactUs.value = true
-  }
-}
-</script>
