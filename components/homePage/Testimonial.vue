@@ -68,7 +68,7 @@ const testimonials = [
           class="custom-swiper"
         >
           <div
-            class="min-h-[400px] py-12 md:flex md:flex-col md:py-10 lg:px-10 shadow-lg hover:shadow-xl transform mx-auto md:mx-0 rounded-lg bg-white/50 ring-1 ring-white/10 sm:rounded-3xl px-6 pb-8"
+            class="min-h-[450px] py-12 md:flex md:flex-col md:py-10 lg:px-10 shadow-lg hover:shadow-xl transform mx-auto md:mx-0 rounded-lg bg-white/5 ring-1 ring-white/10 sm:rounded-3xl px-6 pb-8"
           >
             <div class="md:flex-shrink-0">
               <img
