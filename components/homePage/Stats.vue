@@ -11,14 +11,14 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  numberClient: 90
+  numberClient: 50
 })
 
 const stats = [
-  { id: 1, name: 'COUNTRIES', stat: '12', icon: MapPinIcon },
+  { id: 1, name: 'COUNTRIES', stat: '8', icon: MapPinIcon },
   { id: 2, name: 'CUSTOMERS', stat: `${props.numberClient}+`, icon: UserGroupIcon },
-  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '180+', icon: CheckBadgeIcon },
-  { id: 4, name: 'DEVELOPERS', stat: '120+', icon: CodeBracketIcon }
+  { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '90+', icon: CheckBadgeIcon },
+  { id: 4, name: 'DEVELOPERS', stat: '70+', icon: CodeBracketIcon }
 ]
 </script>
 
