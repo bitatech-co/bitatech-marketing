@@ -2,7 +2,7 @@
 <script lang="ts" setup>
 const { client } = usePrismic()
 
-const numberClient = 90
+const numberClient = 50
 
 const { data: blogs } = await useAsyncData('blog', async () => {
   const result = await client.getAllByType('blog', {

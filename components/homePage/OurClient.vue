@@ -5,7 +5,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  numberClient: 90
+  numberClient: 50
 })
 
 const Clients = [
