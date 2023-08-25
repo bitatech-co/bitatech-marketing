@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     '@nuxtjs/prismic',
     'nuxt-calendly',
     'nuxt-gtag',
-    '@nuxt/devtools'
+    '@nuxt/devtools',
+    '@productdevbook/chatwoot'
   ],
   build: {
     transpile: ["@prismicio/vue"]
@@ -81,5 +82,18 @@ export default defineNuxtConfig({
     // VS Code Server options
     vscode: {},
     // ...other options
+  },
+  chatwoot: {
+    init: {
+      websiteToken: 'MZdk2UFC5H27mVHNvPhxGvv9'
+    },
+    settings: {
+      locale: 'en',
+      position: 'right',
+      launcherTitle: 'Chat with us',
+      // ... and more settings
+    },
+    // If this is loaded you can make it true, https://github.com/nuxt-modules/partytown
+    partytown: false,
   }
 });
