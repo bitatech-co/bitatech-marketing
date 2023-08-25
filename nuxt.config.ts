@@ -21,11 +21,13 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    "@nuxt/image-edge",
-    "@nuxtjs/tailwindcss",
-    "nuxt-swiper",
-    "@nuxtjs/prismic",
-    "nuxt-calendly"
+    '@nuxt/image-edge',
+    '@nuxtjs/tailwindcss',
+    'nuxt-swiper',
+    '@nuxtjs/prismic',
+    'nuxt-calendly',
+    'nuxt-gtag',
+    '@nuxt/devtools'
   ],
   build: {
     transpile: ["@prismicio/vue"]
@@ -67,4 +69,17 @@ export default defineNuxtConfig({
      */
     loadWidgetCloseIconSvg: true
   },
+  gtag: {
+    id: 'G-FB44MT9H97',
+    config: {
+      page_title: 'Bitatech Technology Services Company Limited'
+    }
+  },
+  devtools: {
+    // Enable devtools (default: true)
+    enabled: true,
+    // VS Code Server options
+    vscode: {},
+    // ...other options
+  }
 });
