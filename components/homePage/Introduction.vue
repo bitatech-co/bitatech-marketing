@@ -11,10 +11,13 @@
               <ChevronRightIcon class="ml-2 h-5 w-5 text-gray-500" aria-hidden="true" />
             </a> -->
             <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
-              <span class="block">Web & Mobile apps. SaaS. AI. BlockChain. IoT</span>
-              <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">Software Consulting and Development Studio</span>
+              <span class="block">Digital Marketing.</span>
+              <span class="block">Web & Mobile development.</span>
+              <span class="block bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text pb-3 text-transparent sm:pb-5">
+                Studio
+              </span>
             </h1>
-            <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.</p>
+            <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">We partner with founders, startups, and businesses for digital transformation.</p>
             <!-- <div class="mt-10 sm:mt-12">
               <form action="#" class="sm:mx-auto sm:max-w-xl lg:mx-0">
                 <div class="sm:flex">

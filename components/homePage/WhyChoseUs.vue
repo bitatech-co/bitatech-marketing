@@ -41,8 +41,7 @@ const whyUs = [
   <div class="bg-gray-900">
     <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-10">
       <div class="space-y-12">
-        <h2 class="text-white text-3xl font-bold tracking-tight sm:text-4xl sm:w-full lg:w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Bitatech</span> for Software Development & Consulting</h2>
-       
+        <h2 class="text-white text-3xl font-bold tracking-tight sm:text-4xl sm:w-full lg:w-2/3 mb-16">Why Businesses Choose <span class="text-yellow-500">Lysa Digital</span> for Software Development & Consulting</h2>
         <ul role="list" class="space-y-20 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-20 lg:space-y-0">
           <li v-for="reason in whyUs" :key="reason.name">
             <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">

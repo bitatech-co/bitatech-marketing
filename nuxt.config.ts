@@ -4,14 +4,14 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-16",
       viewport: "width=500, initial-scale=1",
-      title: "Bitatech Technology Services Company Limited",
+      title: "Lysa Digital Services Company Limited",
       meta: [
         // <meta name="description" content="My amazing site">
         {
           hid: 'og-desc',
           name: "description",
           content:
-            "We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices.",
+            "We partner with founders, startups, and businesses for digital transformation.",
         },
         { hid: 'og-type', property: 'og:type', content: 'website' },
         { hid: 'og-title', property: 'og:title', content: 'Technology Services Company' },
@@ -73,7 +73,7 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-FB44MT9H97',
     config: {
-      page_title: 'Bitatech Technology Services Company Limited'
+      page_title: 'Lysa Digital Services Company Limited'
     }
   },
   devtools: {
@@ -83,17 +83,17 @@ export default defineNuxtConfig({
     vscode: {},
     // ...other options
   },
-  chatwoot: {
-    init: {
-      websiteToken: 'MZdk2UFC5H27mVHNvPhxGvv9'
-    },
-    settings: {
-      locale: 'en',
-      position: 'right',
-      launcherTitle: 'Chat with us',
-      // ... and more settings
-    },
-    // If this is loaded you can make it true, https://github.com/nuxt-modules/partytown
-    partytown: false,
-  }
+  // chatwoot: {
+  //   init: {
+  //     websiteToken: 'MZdk2UFC5H27mVHNvPhxGvv9'
+  //   },
+  //   settings: {
+  //     locale: 'en',
+  //     position: 'right',
+  //     launcherTitle: 'Chat with us',
+  //     // ... and more settings
+  //   },
+  //   // If this is loaded you can make it true, https://github.com/nuxt-modules/partytown
+  //   partytown: false,
+  // }
 });

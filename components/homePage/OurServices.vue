@@ -10,6 +10,11 @@ import {
 } from '@heroicons/vue/24/outline'
 
 const features = [
+{
+    name: 'Digital Marketing',
+    description: 'SEO. SEM. Performance Marketing. Content Marketing.',
+    icon: ComputerDesktopIcon,
+  },
   {
     name: 'Software Development',
     description: 'We’re building a new generation of innovative software companies.',
@@ -17,28 +22,22 @@ const features = [
   },
   {
     name: 'Mobile App Development',
-    description: 'As a leading mobile app development company, we have years of experience creating innovative, high-quality applications for our clients.',
+    description: 'User-friendly and high-quality mobile apps for your clients.',
     icon: DevicePhoneMobileIcon,
   },
   {
-    name: 'DevOps Solutions',
-    description:
-      'Boost efficiency and minimize costs with the help of our DevOps experts.',
-    icon: CloudIcon,
-  },
-  {
     name: 'MVP Product Development',
-    description: 'Bitatech Technology can provide a full-scale team to support the entire development lifecycle or fill the gaps in your MVP team. No matter your needs, we follow our proven methodology for ensuring quality and success for your minimum viable product (MVP).',
+    description: 'Full-scale engineering team to support the entire development or your team.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Software Testing',
-    description: 'Increase the speed, accuracy, and security of your QA and software testing with comprehensive services that deliver better products for your end users.',
+    name: 'AI Development',
+    description: 'AI-enabled digital transformation.',
     icon: CheckBadgeIcon,
   },
   {
     name: 'Blockchain',
-    description: 'We provide NFTs, DEX, CEX, eWallet Development, ICO/IEO/STO, Smart Contracts Development to effortlessly leverage Blockchain solutions.',
+    description: 'NFTs, DEX, CEX, eWallet, ICO/IEO/STO, Smart Contracts.',
     icon: CubeIcon,
   }
 ]
@@ -54,7 +53,7 @@ const features = [
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 class="text-3xl font-semibold text-white">OUR SERVICES</h2>
       <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Global Software Consulting, Design and Development</p>
-      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-400">Our dedicated and highly experienced engineering teams provide global businesses with full-stack solutions on multiple platforms and languages, always in a timely and cost-effective manner.</p>
+      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-400">Our dedicated and highly experienced digital marketing specialist and engineering teams provide global businesses with full-stack solutions on multiple platforms and languages, always in a timely and cost-effective manner.</p>
       <div class="mt-12">
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div v-for="feature in features" :key="feature.name" class="pt-6 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-500 mx-auto md:mx-0">

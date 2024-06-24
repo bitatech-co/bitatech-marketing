@@ -34,8 +34,6 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
               <BuildingOffice2Icon class="h-7 w-6 text-gray-400" aria-hidden="true" />
             </dt>
             <dd>
-              <span><i>Hanoi Office:</i> &nbsp;&nbsp;&nbsp;Dolphin Plaza, 6 Nguyen Hoang Street, My Dinh, Hanoi, Vietnam</span>
-              <br />
               <span><i>Sydney Office:</i> 125 Wardell Rd, Earlwood, NSW 2206, Australia</span>
             </dd>
           </div>
@@ -59,10 +57,10 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
           </div>
         </dl>
         <h2 class="text-lg font-bold tracking-tight text-white sm:text-2xl mt-6 mb-4">Who are we?</h2>
-        <p class="text-lg leading-8 text-gray-300">Bitatech is a Vietnam registered software development company with R&D offices in Australia, Sydney. Our headquarter is located in Vietnam, Hanoi.</p>
+        <p class="text-lg leading-8 text-gray-300">Lysa Digital is a Australia registered software digital company.</p>
 
         <h2 class="text-lg font-bold tracking-tight text-white sm:text-2xl mt-6 mb-4">Why do we collect personal information?</h2>
-        <p class="text-lg leading-8 text-gray-300">Bitatech collects information to offer better services to clients.</p>
+        <p class="text-lg leading-8 text-gray-300">Lysa Digital collects information to offer better services to clients.</p>
         <p class="text-lg leading-8 text-gray-300">Generally, we collect information for marketing purposes.</p>
         <p class="text-lg leading-8 text-gray-300">If you leave a contact request or send us an email, we’ll collect and process your data based on your requests. In this case, we’ve a legitimate interest in building client relationships with you.</p>
         <p class="text-lg leading-8 text-gray-300">If you subscribe to our blog, we’ll send you emails with our new articles, achievements, and relevant tech trends. We tend to personalize our emails based on your personal information to make them more useful.</p>

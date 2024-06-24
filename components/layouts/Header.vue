@@ -6,8 +6,8 @@
     >
       <div class="flex lg:flex-1">
         <NuxtLink to="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">Your Company</span>
-          <img class="h-8 w-auto" src="/logo-bitatech-2.png" />
+          <span class="sr-only">Lysa Digital</span>
+          <img class="h-20 w-auto" src="/lysadigital_logo_square_transparent.png" />
         </NuxtLink>
       </div>
       <div class="flex lg:hidden">

@@ -26,7 +26,7 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
             <ol>
               <li class="cupcake">These terms and conditions govern your use of this website; by using this website, you accept these terms and conditions in full. If you disagree with these terms and conditions or any part of these terms and conditions, you must not use this website.</li>
               <li class="cupcake">You must be at least 18 years of age to use this website. By using this website and by agreeing to these terms and conditions, you warrant and represent that you are at least 18 years of age.</li>
-              <li class="cupcake">This website uses cookies. By using this website and agreeing to these terms and conditions, you consent to our Bitatech's use of cookies in accordance with the terms of Bitatech's cookies policy.</li>
+              <li class="cupcake">This website uses cookies. By using this website and agreeing to these terms and conditions, you consent to our Lysa Digital's use of cookies in accordance with the terms of Lysa Digital's cookies policy.</li>
             </ol>
           </li>
 
@@ -34,16 +34,16 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">License to use website</span>
             <ol>
-              <li class="cupcake">Unless otherwise stated, Bitatech's and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.</li>
+              <li class="cupcake">Unless otherwise stated, Lysa Digital's and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.</li>
               <li class="cupcake">You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.</li>
-              <li class="cupcake">This website uses cookies. By using this website and agreeing to these terms and conditions, you consent to our Bitatech's use of cookies in accordance with the terms of Bitatech's cookies policy.</li>
+              <li class="cupcake">This website uses cookies. By using this website and agreeing to these terms and conditions, you consent to our Lysa Digital's use of cookies in accordance with the terms of Lysa Digital's cookies policy.</li>
               <li class="cupcake">
                 You must not:
                 <ul class="list-disc ml-6">
-                  <li>republish material from this website (including republication on another website) without active, do follow link on this web page of Bitatech's website</li>
-                  <li>sell, rent or sub-license material from the website without active, do follow link on this web page of Bitatech's website</li>
-                  <li>show any material from the website in public without active, do follow link on this web page of Bitatech's website</li>
-                  <li>reproduce, duplicate, copy or otherwise exploit material on this website for a commercial purpose without active, do follow link on this web page of Bitatech's website</li>
+                  <li>republish material from this website (including republication on another website) without active, do follow link on this web page of Lysa Digital's website</li>
+                  <li>sell, rent or sub-license material from the website without active, do follow link on this web page of Lysa Digital's website</li>
+                  <li>show any material from the website in public without active, do follow link on this web page of Lysa Digital's website</li>
+                  <li>reproduce, duplicate, copy or otherwise exploit material on this website for a commercial purpose without active, do follow link on this web page of Lysa Digital's website</li>
                 </ul>
               </li>
               <li class="cupcake">Where content is specifically made available for redistribution, it may only be redistributed.</li>
@@ -55,7 +55,7 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
             <ol>
               <li class="cupcake">You must not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.</li>
               <li class="cupcake">You must not use this website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit, or other malicious computer software.</li>
-              <li class="cupcake">You must not conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction, and data harvesting) on or in relation to this website without Bitatech's express written consent.</li>
+              <li class="cupcake">You must not conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction, and data harvesting) on or in relation to this website without Lysa Digital's express written consent.</li>
             </ol>
           </li>
 
@@ -63,18 +63,18 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
             <span class="font-bold text-xl text-white">User content</span>
             <ol>
               <li class="cupcake">In these terms and conditions, “your user content” means material (including without limitation text, images, audio material, video material and audio-visual material) that you submit to this website, for whatever purpose.</li>
-              <li class="cupcake">You grant to Bitatech a worldwide, irrevocable, non-exclusive, royalty-free license to use, reproduce, adapt, publish, translate and distribute your user content in any existing or future media. You also grant to Bitatech the right to sub-license these rights, and the right to bring an action for infringement of these rights.</li>
-              <li class="cupcake">Your user content must not be illegal or unlawful, must not infringe any third-party's legal rights, and must not be capable of giving rise to legal action whether against you or Bitatech or a third party(in each case under any applicable law).</li>
+              <li class="cupcake">You grant to Lysa Digital a worldwide, irrevocable, non-exclusive, royalty-free license to use, reproduce, adapt, publish, translate and distribute your user content in any existing or future media. You also grant to Lysa Digital the right to sub-license these rights, and the right to bring an action for infringement of these rights.</li>
+              <li class="cupcake">Your user content must not be illegal or unlawful, must not infringe any third-party's legal rights, and must not be capable of giving rise to legal action whether against you or Lysa Digital or a third party(in each case under any applicable law).</li>
               <li class="cupcake">You must not submit any user content to the website that is or has ever been the subject of any threatened or actual legal proceedings or other similar complaint.</li>
-              <li class="cupcake">Bitatech reserves the right to edit or remove any material submitted to this website, or stored on Bitatech's servers, or hosted or published upon this website.</li>
+              <li class="cupcake">Lysa Digital reserves the right to edit or remove any material submitted to this website, or stored on Lysa Digital's servers, or hosted or published upon this website.</li>
             </ol>
           </li>
 
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">No warranties</span>
             <ol>
-              <li class="cupcake">This website is provided “as is” without any representations or warranties, express or implied. Bitatech makes no representations or warranties in relation to this website or the information and materials provided on this website.</li>
-              <li class="cupcake">Without prejudice to the generality of the foregoing paragraph, Bitatech does not warrant that: this website will be constantly available, or available at all; or the information on this website is complete, true, accurate or non-misleading.</li>
+              <li class="cupcake">This website is provided “as is” without any representations or warranties, express or implied. Lysa Digital makes no representations or warranties in relation to this website or the information and materials provided on this website.</li>
+              <li class="cupcake">Without prejudice to the generality of the foregoing paragraph, Lysa Digital does not warrant that: this website will be constantly available, or available at all; or the information on this website is complete, true, accurate or non-misleading.</li>
               <li class="cupcake">Nothing on this website constitutes, or is meant to constitute, advice of any kind.</li>
             </ol>
           </li>
@@ -83,26 +83,26 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
             <span class="font-bold text-xl text-white">Limitations of liability</span>
             <ol>
               <li class="cupcake">
-                Bitatech will not be liable to you (whether under the law of contact, the law of torts or otherwise) in relation to the contents of, or use of, or otherwise in connection with, this website
+                Lysa Digital will not be liable to you (whether under the law of contact, the law of torts or otherwise) in relation to the contents of, or use of, or otherwise in connection with, this website
                 <ul class="list-disc ml-6">
                   <li>for any indirect, special or consequential loss; or</li>
                   <li>for any business losses, loss of revenue, income, profits or anticipated savings, loss of contracts or business relationships, loss of reputation or goodwill, or loss or corruption of information or data.</li>
                 </ul>
               </li>
-              <li class="cupcake">These limitations of liability apply even if Bitatech has been expressly advised of the potential loss.</li>
+              <li class="cupcake">These limitations of liability apply even if Lysa Digital has been expressly advised of the potential loss.</li>
             </ol>
           </li>
 
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Exceptions</span>
             <ol>
-              <li class="cupcake">Nothing in this website disclaimer will exclude or limit any warranty implied by law that it would be unlawful to exclude or limit; and nothing in this website disclaimer will exclude or limit Bitatech's liability in respect of any:</li>
+              <li class="cupcake">Nothing in this website disclaimer will exclude or limit any warranty implied by law that it would be unlawful to exclude or limit; and nothing in this website disclaimer will exclude or limit Lysa Digital's liability in respect of any:</li>
               <li class="cupcake">
-                Without prejudice to the generality of the foregoing paragraph, Bitatech does not warrant that:
+                Without prejudice to the generality of the foregoing paragraph, Lysa Digital does not warrant that:
                 <ul class="list-disc ml-6">
-                  <li>death or personal injury caused by Bitatech's negligence</li>
-                  <li>fraud or fraudulent misrepresentation on the part of Bitatech; or</li>
-                  <li>matter which it would be illegal or unlawful for Bitatech to exclude or limit, or to attempt or purport to exclude or limit, its liability.</li>
+                  <li>death or personal injury caused by Lysa Digital's negligence</li>
+                  <li>fraud or fraudulent misrepresentation on the part of Lysa Digital; or</li>
+                  <li>matter which it would be illegal or unlawful for Lysa Digital to exclude or limit, or to attempt or purport to exclude or limit, its liability.</li>
                 </ul>
               </li>
             </ol>
@@ -119,7 +119,7 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Unenforceable provisions</span>
             <ol>
-              <li class="cupcake">You hereby indemnify Bitatech and undertake to keep Bitatech indemnified against any losses, damages, costs, liabilities and expenses (including without limitation legal expenses and any amounts paid by Bitatech to a third-party in settlement of a claim or dispute on the advice of Bitatech's legal advisers) incurred or suffered by Bitatech arising out of any breach by you of any provision of these terms and conditions.</li>
+              <li class="cupcake">You hereby indemnify Lysa Digital and undertake to keep Lysa Digital indemnified against any losses, damages, costs, liabilities and expenses (including without limitation legal expenses and any amounts paid by Lysa Digital to a third-party in settlement of a claim or dispute on the advice of Lysa Digital's legal advisers) incurred or suffered by Lysa Digital arising out of any breach by you of any provision of these terms and conditions.</li>
             </ol>
           </li>
 
@@ -133,21 +133,21 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Breaches of these terms and conditions</span>
             <ol>
-              <li class="cupcake">Without prejudice to Bitatech's other rights under these terms and conditions, if you breach these terms and conditions in any way, Bitatech may take such action as Bitatech deems appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/ or bringing court proceedings against you.</li>
+              <li class="cupcake">Without prejudice to Lysa Digital's other rights under these terms and conditions, if you breach these terms and conditions in any way, Lysa Digital may take such action as Lysa Digital deems appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/ or bringing court proceedings against you.</li>
             </ol>
           </li>
 
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Variation</span>
             <ol>
-              <li class="cupcake">Bitatech may revise these terms and conditions from time-to-time. Revised terms and conditions will apply to the use of this website from the date of the publication of the revised terms and conditions on this website. Please check this page regularly to ensure you are familiar with the current version.</li>
+              <li class="cupcake">Lysa Digital may revise these terms and conditions from time-to-time. Revised terms and conditions will apply to the use of this website from the date of the publication of the revised terms and conditions on this website. Please check this page regularly to ensure you are familiar with the current version.</li>
             </ol>
           </li>
 
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Assignment</span>
             <ol>
-              <li class="cupcake">Bitatech may transfer, sub-contract, or otherwise deal with Bitatech's rights and/or obligations under these terms and conditions without notifying you or obtaining your consent.</li>
+              <li class="cupcake">Lysa Digital may transfer, sub-contract, or otherwise deal with Lysa Digital's rights and/or obligations under these terms and conditions without notifying you or obtaining your consent.</li>
               <li class="cupcake">You may not transfer, sub-contract, or otherwise deal with your rights and/or obligations under these terms and conditions.</li>
             </ol>
           </li>
@@ -163,20 +163,20 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Entire agreement</span>
             <ol>
-              <li class="cupcake">These terms and conditions constitute the entire agreement between you and Bitatech in relation to your use of this website, and supersede all previous agreements in respect of your use of this website</li>
+              <li class="cupcake">These terms and conditions constitute the entire agreement between you and Lysa Digital in relation to your use of this website, and supersede all previous agreements in respect of your use of this website</li>
             </ol>
           </li>
 
           <li class="mb-6 cupcake">
             <span class="font-bold text-xl text-white">Law and jurisdiction</span>
             <ol>
-              <li class="cupcake">These terms and conditions will be governed by and construed in accordance with the laws of Vietnam, and any disputes relating to these terms and conditions will be subject to the exclusive jurisdiction of the courts of Vietnam.</li>
+              <li class="cupcake">These terms and conditions will be governed by and construed in accordance with the laws of NSW, Australia, and any disputes relating to these terms and conditions will be subject to the exclusive jurisdiction of the courts of Australia.</li>
             </ol>
           </li>
 
-          <p class="text-lg leading-8 text-gray-300">Bitatech's details:</p>
-          <p class="text-lg leading-8 text-gray-300">The full name of Bitatech is BITATECH TS CO.,LTD</p>
-          <p class="text-lg leading-8 text-gray-300">You can contact Bitatech by email to contact@bitatech.co</p>
+          <p class="text-lg leading-8 text-gray-300">Lysa Digital's details:</p>
+          <p class="text-lg leading-8 text-gray-300">The full name of Lysa Digital is BITATECH TS CO.,LTD</p>
+          <p class="text-lg leading-8 text-gray-300">You can contact Lysa Digital by email to contact@bitatech.co</p>
         </ol>
 
       </div>

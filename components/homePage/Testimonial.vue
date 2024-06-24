@@ -5,7 +5,7 @@ const testimonials = [
     companyLogo: '/client-bitatech-6.png',
     companyName: 'Valorise',
     content:
-      'Bitatech is an external software services provider but their way of working will make you feel like you have a bigger in-house engineering team!',
+      'Lysa Digital is an external software services provider but their way of working will make you feel like you have a bigger in-house engineering team!',
     avatar: '/avatar-vp.png',
     name: 'Vinesh',
     position: 'CEO, ValoriseAI',
@@ -14,7 +14,7 @@ const testimonials = [
     companyLogo: '/client-bitatech-9.png',
     companyName: 'Everluxe',
     content:
-      'The excellent engineering team at Bitatech helped us build a performant and beautiful e-commerce website for our beloved fashion brand. This directly increases our sales revenue by 200%. Massive thank you!',
+      'The excellent engineering team at Lysa Digital helped us build a performant and beautiful e-commerce website for our beloved fashion brand. This directly increases our sales revenue by 200%. Massive thank you!',
     avatar: '/avatar-ceo-everluxe.jpg',
     name: 'Linda',
     position: 'Everluxe CEO, Designer Fashion',
@@ -23,7 +23,7 @@ const testimonials = [
     companyLogo: '/channels4_profile.jpg',
     companyName: 'HolaYoga',
     content:
-      'Thank you Bitatech for turning my business ideas into real website, and mobile apps. Your work is of incredibly high quality and speed. The apps enable our online Masterclass and subscription revenue, while allow me to focus on my business and do what I love: spreading yoga to the world 🧘‍♀️ ',
+      'Thank you Lysa Digital for turning my business ideas into real website, and mobile apps. Your work is of incredibly high quality and speed. The apps enable our online Masterclass and subscription revenue, while allow me to focus on my business and do what I love: spreading yoga to the world 🧘‍♀️ ',
     avatar: '/avatar_CEO_holayoga.jpg',
     name: 'Lan Nguyen',
     position: 'CEO & Founder of HolaYoga (Australia & Vietnam)',
@@ -32,7 +32,7 @@ const testimonials = [
     companyLogo: '/client-bitatech-14.png',
     companyName: 'Cardina',
     content:
-      'Our experience working with Bitatech has been exceptional. They understood our vision right from the start and delivered beyond our expectations. Their expertise in the e-Commerce industry, combined with their attention to detail and creative ideas, resulted in a stunning and user-friendly platform that perfectly represents our brand. Highly recommend Bitatech!',
+      'Our experience working with Lysa Digital has been exceptional. They understood our vision right from the start and delivered beyond our expectations. Their expertise in the e-Commerce industry, combined with their attention to detail and creative ideas, resulted in a stunning and user-friendly platform that perfectly represents our brand. Highly recommend Lysa Digital!',
     avatar: '/avatar_cmo_cardina.jpg',
     name: 'Tien Hoang',
     position: 'CMO & Product Manager of Cardina',

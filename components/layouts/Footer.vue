@@ -33,20 +33,20 @@ const footerNavigation = {
           </div>
         </div>
         <div class="mt-10 xl:mt-0">
-          <h3 class="text-2xl font-bold tracking-tight text-white">Our Offices</h3>
+          <h3 class="text-2xl font-bold tracking-tight text-white my-4">Our Offices</h3>
           <div class="mt-4 grid grid-cols-1 gap-2 xl:mt-0">
-            <div class="my-2">
-              <p class="text-blue-400 mb-2">Hanoi Head Office</p>
-              <p class="text-gray-300">Dolphin Plaza, 6 Nguyen Hoang Street, My Dinh, Hanoi, Vietnam</p>
-              <a class="hover:text-white text-white" href="tel:+84-(0)9-6313-8192"
-                >tel: +84-(0)9-6313-8192</a
-              >
-            </div>
             <div>
               <p class="text-blue-400 mb-2">Sydney Office</p>
               <p class="text-gray-300">125 Wardell Rd, Earlwood, NSW 2206, Australia</p>
               <a class="hover:text-white text-white" href="tel:+61-4-4451-8693"
                 >tel: +61-4-4451-8693</a
+              >
+            </div>
+            <div>
+              <p class="text-blue-400 mb-2">Sydney Office 2</p>
+              <p class="text-gray-300">29 Slade Rd, Bardwell Park, NSW 2207, Australia</p>
+              <a class="hover:text-white text-white" href="tel:+61-406-122-084"
+                >tel: +61-406-122-084</a
               >
             </div>
           </div>
@@ -71,7 +71,7 @@ const footerNavigation = {
         </div>
       </div>
       <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-        <p class="text-xs leading-5 text-gray-400">&copy; 2024 Bitatech TS Co., LTD. All rights reserved.</p>
+        <p class="text-xs leading-5 text-gray-400">&copy; 2024 Lysa Digital TS Co., LTD. All rights reserved.</p>
       </div>
     </div>
   </footer>

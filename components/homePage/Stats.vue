@@ -18,7 +18,6 @@ const stats = [
   { id: 1, name: 'COUNTRIES', stat: '8', icon: MapPinIcon },
   { id: 2, name: 'CUSTOMERS', stat: `${props.numberClient}+`, icon: UserGroupIcon },
   { id: 3, name: 'SUCCESSFUL PROJECTS', stat: '90+', icon: CheckBadgeIcon },
-  { id: 4, name: 'DEVELOPERS', stat: '70+', icon: CodeBracketIcon }
 ]
 </script>
 
@@ -38,7 +37,7 @@ const stats = [
       </div>
     </dl> -->
 
-    <dl class="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
+    <dl class="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-3">
       <div v-for="(stat, statIdx) in stats" :key="statIdx" class="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6">
         <dt class="text-base leading-7 text-gray-300">{{ stat.name }}</dt>
         <dd class="text-3xl font-semibold tracking-tight text-white">{{ stat.stat }}</dd>

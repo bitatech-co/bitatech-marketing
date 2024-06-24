@@ -123,7 +123,7 @@ const benefits = [
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
             <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our people</h2>
-            <p class="mt-6 text-xl leading-8 text-gray-300">At Bitatech, we pride ourselves on creating a workplace that fosters respect, support, and a sense of belonging for all. We strongly believe in embracing individuality and encourage every person to be their authentic selves.</p>
+            <p class="mt-6 text-xl leading-8 text-gray-300">At Lysa Digital, we pride ourselves on creating a workplace that fosters respect, support, and a sense of belonging for all. We strongly believe in embracing individuality and encourage every person to be their authentic selves.</p>
             <p class="mt-6 text-base leading-7 text-gray-300">We value hard work, collaboration, and innovation, and we ensure that these qualities are recognized and rewarded. We understand that diverse teams bring together unique experiences and perspectives, which lead to greater creativity. And as a result, the software we create is more useful and accessible to a wider range of people.</p>
           </div>
           <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

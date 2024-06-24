@@ -11,7 +11,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/vue/20/solid";
         <div class="w-full flex-auto">
           <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready To Get Started?</h2>
           <p class="mt-6 text-lg leading-8 text-gray-300">
-            Consistently recognized as one of Vietnam’s best software development
+            Consistently recognized as one of Australia's best software development
             companies with the proven success of over 4+ years with hundreds of
             customers globally. You can entrust us with your software development
             and outsourcing needs.

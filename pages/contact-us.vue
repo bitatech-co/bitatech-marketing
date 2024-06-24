@@ -124,7 +124,7 @@ const submitForm = async () => {
             Get in touch
           </h2>
           <p class="mt-6 text-lg leading-8 text-gray-300">
-            We partner with founders, startups, and enterprises to design and create MVP, products, and services following industry best practices
+            We partner with founders, startups, and businesses for digital transformation.
           </p>
           <dl class="mt-10 space-y-4 text-base leading-7 text-gray-300">
             <div class="flex gap-x-4">
@@ -135,8 +135,8 @@ const submitForm = async () => {
                   aria-hidden="true"
                 />
               </dt>
-              <dd>Hanoi Head Office<br />Dolphin Plaza, 6 Nguyen Hoang Street, My Dinh, Hanoi, Vietnam</dd>
               <dd>Sydney Office<br />125 Wardell Rd, Earlwood, NSW 2206, Australia</dd>
+              <dd>Sydney Office 2<br />29 Slade Rd, Bardwell Park, NSW 2207, Australia</dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
